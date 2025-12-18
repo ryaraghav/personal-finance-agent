@@ -1,0 +1,32 @@
+# Private data
+data/
+analysis.ipynb
+report.py
+test.ipynb
+monthly_finance_report.pdf
+monthly_finance_report.png
+
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+myvenv/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+*.pkg
+
+# Reports (may contain sensitive info)
+*.pdf
+*.png
+
+# Jupyter Notebook
+.ipynb_checkpoints
