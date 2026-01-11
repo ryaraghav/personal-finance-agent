@@ -1,0 +1,15 @@
+google-adk
+python-dotenv
+pandas
+duckdb
+google-genai
+opentelemetry-semantic-conventions==0.59b0
+tabulate
+seaborn
+#strands-agents
+#strands-agents-tools
+# matplotlib
+# boto3
+# pandas
+# anthropic
+# python-dotenv

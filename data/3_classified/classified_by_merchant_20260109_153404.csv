@@ -1,0 +1,710 @@
+date,description,amount,type,bank_category,ai_category,ai_subcategory,confidence,reasoning,source,month,year
+2024-01-01,Opening Balance,1973.0,Credit,Initial,Other,,high,"Opening Balance is an account initialization, not a regular transaction category",fake_checking_account,2024-01,2024
+2024-01-01,CARD SERVICE FEE,-10.94,Fee,Fees,Fees,,high,Card service fee charges,fake_creditcard_1,2024-01,2024
+2024-01-01,Rent Payment – Property Mgmt,-2331.4,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-01,2024
+2024-01-05,ACH Credit ACME CORP – PAYROLL,3350.28,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-01,2024
+2024-01-05,SQ *THE BOUNCE PLACE,-28.96,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-01,2024
+2024-01-08,Comcast Internet Service,-89.2,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-01,2024
+2024-01-08,Starbucks Store,-7.86,Debit,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_checking_account,2024-01,2024
+2024-01-09,SQ *LA TAQUERIA,-8.29,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2024-01,2024
+2024-01-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-01,2024
+2024-01-13,AT&T Wireless Payment,-98.27,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-01,2024
+2024-01-15,CITY PARKING METER,-13.13,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-01,2024
+2024-01-17,TRADER JOE'S #862,-67.67,Sale,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,fake_creditcard_1,2024-01,2024
+2024-01-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-01,2024
+2024-01-19,ACH Credit ACME CORP – PAYROLL,3254.05,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-01,2024
+2024-01-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-01,2024
+2024-01-21,Citibank Card Payment,-13.13,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-01,2024
+2024-01-21,REI RETURN,96.46,Refund,Shopping,Shopping,Sporting Goods,high,REI return - keeping original category as sporting goods refund,fake_creditcard_1,2024-01,2024
+2024-01-22,ATT*BILL PAYMENT 800-288-2020 TX,-86.68,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-01,2024
+2024-01-23,Electric Company Bill,-155.22,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-01,2024
+2024-01-24,BARNES & NOBLE,-35.57,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-01,2024
+2024-01-25,MUSEUM,-19.89,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-01,2024
+2024-01-25,STARBUCKS,-7.34,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2024-01,2024
+2024-01-29,COSTCO GAS #0422,-29.05,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-01,2024
+2024-01-31,UNITED AIRLINES,-270.95,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-01,2024
+2024-02-01,Rent Payment – Property Mgmt,-2384.21,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-02,2024
+2024-02-02,Target Store,-96.29,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2024-02,2024
+2024-02-02,ACH Credit ACME CORP – PAYROLL,3449.72,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-02,2024
+2024-02-05,AMAZON.COM ORDER 926367,-72.86,Sale,Shopping,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,fake_creditcard_1,2024-02,2024
+2024-02-05,ATT*BILL PAYMENT 800-288-2020 TX,-98.48,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-02,2024
+2024-02-07,UNITED AIRLINES,-324.6,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-02,2024
+2024-02-07,WHOLE FOODS MARKET #239,-66.0,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-02,2024
+2024-02-08,Citibank Card Payment,-115.73,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-02,2024
+2024-02-08,Comcast Internet Service,-76.24,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-02,2024
+2024-02-10,SWEETGREEN,-22.34,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2024-02,2024
+2024-02-10,CONCERT VENUE,-110.94,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2024-02,2024
+2024-02-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-02,2024
+2024-02-12,COSTCO GAS #0422,-47.55,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-02,2024
+2024-02-13,LULULEMON,-174.69,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2024-02,2024
+2024-02-13,AT&T Wireless Payment,-93.41,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-02,2024
+2024-02-14,Amazon Marketplace,-90.83,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-02,2024
+2024-02-16,ACH Credit ACME CORP – PAYROLL,3235.05,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-02,2024
+2024-02-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-02,2024
+2024-02-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-02,2024
+2024-02-19,COSTCO GAS #0422,-56.33,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-02,2024
+2024-02-21,Chase Sapphire Payment,-362.96,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-02,2024
+2024-02-23,Electric Company Bill,-146.25,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-02,2024
+2024-02-24,Citibank Card Payment,-85.29,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-02,2024
+2024-02-24,APPLE.COM/BILL,-9.41,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-02,2024
+2024-02-25,DoorDash,-24.39,Debit,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_checking_account,2024-02,2024
+2024-02-25,GOOGLE *YOUTUBE,-14.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2024-02,2024
+2024-02-25,Citibank Card Payment,-60.74,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-02,2024
+2024-02-26,CITY PARKING METER,-12.62,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-02,2024
+2024-02-28,NIKE.COM,-83.02,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-02,2024
+2024-02-29,REI RETURN,53.42,Refund,Shopping,Shopping,Sporting Goods,high,REI return - keeping original category as sporting goods refund,fake_creditcard_1,2024-02,2024
+2024-02-29,Target Store,-74.88,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2024-02,2024
+2024-03-01,ACH Credit ACME CORP – PAYROLL,3378.31,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-03,2024
+2024-03-01,Rent Payment – Property Mgmt,-2298.09,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-03,2024
+2024-03-02,SQ *LA TAQUERIA,-11.81,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2024-03,2024
+2024-03-02,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2024-03,2024
+2024-03-03,CVS/PHARMACY,-27.58,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-03,2024
+2024-03-03,NIKE.COM,-85.39,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-03,2024
+2024-03-05,CVS/PHARMACY,-29.57,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-03,2024
+2024-03-07,Citibank Card Payment,-68.95,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-03,2024
+2024-03-08,Comcast Internet Service,-85.38,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-03,2024
+2024-03-08,AMC THEATRES,-33.78,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2024-03,2024
+2024-03-11,COSTCO GAS #0422,-53.36,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-03,2024
+2024-03-11,INSTACART,-103.22,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2024-03,2024
+2024-03-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-03,2024
+2024-03-13,AT&T Wireless Payment,-92.71,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-03,2024
+2024-03-15,CVS Pharmacy,-22.61,Debit,Health,Healthcare,Pharmacy,high,CVS Pharmacy healthcare and personal care items,fake_checking_account,2024-03,2024
+2024-03-15,ACH Credit ACME CORP – PAYROLL,3239.1,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-03,2024
+2024-03-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-03,2024
+2024-03-17,REI,-98.19,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-03,2024
+2024-03-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-03,2024
+2024-03-20,DoorDash,-54.16,Debit,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_checking_account,2024-03,2024
+2024-03-20,Citibank Card Payment,-22.9,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-03,2024
+2024-03-21,Chase Sapphire Payment,-825.43,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-03,2024
+2024-03-21,SQ *THE BOUNCE PLACE,-29.96,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-03,2024
+2024-03-21,SWEETGREEN,-21.38,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2024-03,2024
+2024-03-22,Citibank Card Payment,-37.99,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-03,2024
+2024-03-23,Electric Company Bill,-83.53,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-03,2024
+2024-03-23,GOOGLE *YOUTUBE,-18.63,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2024-03,2024
+2024-03-23,INSTACART,-94.88,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2024-03,2024
+2024-03-25,COSTCO GAS #0422,-28.94,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-03,2024
+2024-03-26,UNITED AIRLINES,-177.61,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-03,2024
+2024-03-27,UBER TRIP,-19.52,Sale,Travel,Transportation,Rideshare,high,Uber rideshare transportation service,fake_creditcard_1,2024-03,2024
+2024-03-29,ACH Credit ACME CORP – PAYROLL,3481.5,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-03,2024
+2024-03-31,BALSMIQ,-14.24,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2024-03,2024
+2024-03-31,CARD SERVICE FEE,-5.63,Fee,Fees,Fees,,high,Card service fee charges,fake_creditcard_1,2024-03,2024
+2024-04-01,Rent Payment – Property Mgmt,-2314.99,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-04,2024
+2024-04-03,STARBUCKS,-6.47,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2024-04,2024
+2024-04-05,Citibank Card Payment,-28.94,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-04,2024
+2024-04-06,WHOLE FOODS MARKET #680,-79.24,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-04,2024
+2024-04-08,Comcast Internet Service,-90.51,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-04,2024
+2024-04-08,COSTCO GAS #0422,-68.29,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-04,2024
+2024-04-08,SQ *LA TAQUERIA,-11.89,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2024-04,2024
+2024-04-11,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-04,2024
+2024-04-11,Target Store,-75.41,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2024-04,2024
+2024-04-12,ACH Credit ACME CORP – PAYROLL,3115.77,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-04,2024
+2024-04-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-04,2024
+2024-04-13,APPLE.COM/BILL,-12.31,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-04,2024
+2024-04-13,WHOLE FOODS MARKET #740,-58.61,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-04,2024
+2024-04-13,AT&T Wireless Payment,-102.23,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-04,2024
+2024-04-15,BARNES & NOBLE,-17.37,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-04,2024
+2024-04-17,CVS Pharmacy,-27.4,Debit,Health,Healthcare,Pharmacy,high,CVS Pharmacy healthcare and personal care items,fake_checking_account,2024-04,2024
+2024-04-17,HOTEL,-242.72,Sale,Travel,Travel,Hotels/Lodging,high,Hotel accommodation expenses,fake_creditcard_1,2024-04,2024
+2024-04-17,CVS/PHARMACY,-29.32,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-04,2024
+2024-04-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-04,2024
+2024-04-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-04,2024
+2024-04-19,MUSEUM,-54.66,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-04,2024
+2024-04-21,AMAZON.COM ORDER 415198,-73.77,Sale,Shopping,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,fake_creditcard_1,2024-04,2024
+2024-04-21,Chase Sapphire Payment,-787.38,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-04,2024
+2024-04-21,Citibank Card Payment,-25.54,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-04,2024
+2024-04-23,Electric Company Bill,-123.13,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-04,2024
+2024-04-24,NIKE.COM,-128.1,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-04,2024
+2024-04-24,Citibank Card Payment,-42.75,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-04,2024
+2024-04-25,LULULEMON,-127.92,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2024-04,2024
+2024-04-26,ACH Credit ACME CORP – PAYROLL,3425.25,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-04,2024
+2024-04-27,DOORDASH RETURN,40.65,Refund,Food & Drink,Dining,Food Delivery,high,"DoorDash return should be categorized as original category (Food Delivery), not Refunds",fake_creditcard_1,2024-04,2024
+2024-04-27,Target Store,-111.11,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2024-04,2024
+2024-04-29,ATT*BILL PAYMENT 800-288-2020 TX,-107.99,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-04,2024
+2024-05-01,Rent Payment – Property Mgmt,-2380.44,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-05,2024
+2024-05-01,REI,-93.33,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-05,2024
+2024-05-04,AIRBNB,-278.79,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2024-05,2024
+2024-05-04,INSTACART,-64.03,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2024-05,2024
+2024-05-06,Trader Joe’s,-71.09,Debit,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a well-known grocery store specializing in natural/organic foods,fake_checking_account,2024-05,2024
+2024-05-06,COSTCO GAS #0422,-68.61,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-05,2024
+2024-05-08,CONCERT VENUE,-158.85,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2024-05,2024
+2024-05-08,Comcast Internet Service,-68.74,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-05,2024
+2024-05-09,Citibank Card Payment,-107.99,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-05,2024
+2024-05-10,ACH Credit ACME CORP – PAYROLL,3239.82,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-05,2024
+2024-05-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-05,2024
+2024-05-13,Amazon Marketplace,-104.04,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-05,2024
+2024-05-13,AT&T Wireless Payment,-104.2,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-05,2024
+2024-05-15,CHIPOTLE,-18.87,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-05,2024
+2024-05-15,NIKE.COM,-117.28,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-05,2024
+2024-05-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-05,2024
+2024-05-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-05,2024
+2024-05-20,WALGREENS,-42.5,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2024-05,2024
+2024-05-20,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-05,2024
+2024-05-20,ATT*BILL PAYMENT 800-288-2020 TX,-108.68,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-05,2024
+2024-05-21,Chase Sapphire Payment,-812.72,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-05,2024
+2024-05-23,Electric Company Bill,-128.19,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-05,2024
+2024-05-24,SQ *THE BOUNCE PLACE,-21.68,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-05,2024
+2024-05-24,Citibank Card Payment,-68.61,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-05,2024
+2024-05-24,ACH Credit ACME CORP – PAYROLL,3531.1,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-05,2024
+2024-05-26,SQ *THE BOUNCE PLACE,-29.91,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-05,2024
+2024-05-27,CITY PARKING METER,-10.44,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-05,2024
+2024-05-28,DOORDASH,-45.98,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2024-05,2024
+2024-05-30,LULULEMON,-92.34,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2024-05,2024
+2024-05-30,WALGREENS,-22.67,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2024-05,2024
+2024-05-31,UNITED AIRLINES,-356.38,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-05,2024
+2024-06-01,Rent Payment – Property Mgmt,-2265.88,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-06,2024
+2024-06-04,MUSEUM,-34.25,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-06,2024
+2024-06-05,BALSMIQ,-19.13,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2024-06,2024
+2024-06-05,GOOGLE *YOUTUBE,-19.27,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2024-06,2024
+2024-06-05,REI,-149.67,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-06,2024
+2024-06-05,Amazon Marketplace,-93.83,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-06,2024
+2024-06-06,NIKE.COM,-58.0,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-06,2024
+2024-06-06,TICKETMASTER,-126.45,Sale,Entertainment,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,fake_creditcard_1,2024-06,2024
+2024-06-06,Citibank Card Payment,-68.62,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-06,2024
+2024-06-07,ACH Credit ACME CORP – PAYROLL,3158.83,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-06,2024
+2024-06-08,Comcast Internet Service,-78.74,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-06,2024
+2024-06-08,Citibank Card Payment,-50.5,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-06,2024
+2024-06-10,COSTCO GAS #0422,-65.62,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-06,2024
+2024-06-10,GOOGLE *YOUTUBE,-14.59,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2024-06,2024
+2024-06-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-06,2024
+2024-06-13,AT&T Wireless Payment,-100.19,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-06,2024
+2024-06-17,CITY PARKING METER,-9.05,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-06,2024
+2024-06-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-06,2024
+2024-06-18,TICKETMASTER RETURN,128.18,Refund,Entertainment,Entertainment,Movies/Theater,high,"Ticketmaster return should be categorized as original category (Entertainment), not Refunds",fake_creditcard_1,2024-06,2024
+2024-06-18,SWEETGREEN,-20.63,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2024-06,2024
+2024-06-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-06,2024
+2024-06-21,ACH Credit ACME CORP – PAYROLL,3494.13,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-06,2024
+2024-06-21,Chase Sapphire Payment,-1353.6,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-06,2024
+2024-06-23,Citibank Card Payment,-65.62,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-06,2024
+2024-06-23,APPLE.COM/BILL,-7.42,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-06,2024
+2024-06-23,Electric Company Bill,-143.99,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-06,2024
+2024-06-24,COSTCO GAS #0422,-51.06,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-06,2024
+2024-07-01,Amazon Marketplace,-108.66,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-07,2024
+2024-07-01,COSTCO GAS #0422,-63.55,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-07,2024
+2024-07-01,Rent Payment – Property Mgmt,-2284.31,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-07,2024
+2024-07-02,WHOLE FOODS MARKET #542,-94.55,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-07,2024
+2024-07-05,Citibank Card Payment,-26.75,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-07,2024
+2024-07-05,SWEETGREEN,-13.27,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2024-07,2024
+2024-07-05,ACH Credit ACME CORP – PAYROLL,3382.73,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-07,2024
+2024-07-06,Citibank Card Payment,-33.36,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-07,2024
+2024-07-08,Comcast Internet Service,-72.2,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-07,2024
+2024-07-08,ATT*BILL PAYMENT 800-288-2020 TX,-108.78,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-07,2024
+2024-07-11,APPLE.COM/BILL,-10.92,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-07,2024
+2024-07-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-07,2024
+2024-07-13,Amazon Marketplace,-84.13,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-07,2024
+2024-07-13,AT&T Wireless Payment,-96.34,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-07,2024
+2024-07-14,GIFTS & DONATIONS,-65.72,Sale,Gifts & Donations,Gifts,,high,Gifts and donations category based on merchant name,fake_creditcard_1,2024-07,2024
+2024-07-15,MUSEUM,-39.33,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-07,2024
+2024-07-15,CITY PARKING METER,-17.55,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-07,2024
+2024-07-17,STARBUCKS,-9.28,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2024-07,2024
+2024-07-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-07,2024
+2024-07-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-07,2024
+2024-07-19,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-07,2024
+2024-07-19,CVS/PHARMACY,-32.33,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-07,2024
+2024-07-19,ACH Credit ACME CORP – PAYROLL,3343.66,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-07,2024
+2024-07-20,Citibank Card Payment,-189.88,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-07,2024
+2024-07-21,WALGREENS,-30.79,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2024-07,2024
+2024-07-21,INSTACART,-122.42,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2024-07,2024
+2024-07-21,Chase Sapphire Payment,-321.23,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-07,2024
+2024-07-22,CITY PARKING METER,-18.0,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-07,2024
+2024-07-23,Electric Company Bill,-162.97,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-07,2024
+2024-07-23,Target Store,-56.08,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2024-07,2024
+2024-08-01,CVS/PHARMACY,-19.36,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-08,2024
+2024-08-01,Rent Payment – Property Mgmt,-2275.46,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-08,2024
+2024-08-02,ACH Credit ACME CORP – PAYROLL,3370.55,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-08,2024
+2024-08-04,LULULEMON,-111.91,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2024-08,2024
+2024-08-04,LULULEMON,-50.35,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2024-08,2024
+2024-08-05,COSTCO GAS #0422,-43.71,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-08,2024
+2024-08-05,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-08,2024
+2024-08-06,LULULEMON RETURN,107.35,Refund,Shopping,Shopping,Clothing/Apparel,high,"Lululemon return should be categorized as original category (Clothing/Apparel), not Refunds",fake_creditcard_1,2024-08,2024
+2024-08-06,Citibank Card Payment,-18.0,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-08,2024
+2024-08-08,Comcast Internet Service,-84.03,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-08,2024
+2024-08-10,TRADER JOE'S #218,-56.5,Sale,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,fake_creditcard_1,2024-08,2024
+2024-08-12,COSTCO GAS #0422,-47.23,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-08,2024
+2024-08-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-08,2024
+2024-08-13,AT&T Wireless Payment,-90.59,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-08,2024
+2024-08-14,AMC THEATRES,-34.16,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2024-08,2024
+2024-08-15,MUSEUM,-22.79,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-08,2024
+2024-08-16,ACH Credit ACME CORP – PAYROLL,3440.75,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-08,2024
+2024-08-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-08,2024
+2024-08-19,CVS/PHARMACY,-23.82,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-08,2024
+2024-08-19,COSTCO GAS #0422,-31.5,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-08,2024
+2024-08-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-08,2024
+2024-08-21,TRADER JOE'S #858,-52.25,Sale,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,fake_creditcard_1,2024-08,2024
+2024-08-21,Chase Sapphire Payment,-429.6,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-08,2024
+2024-08-22,BALSMIQ,-19.78,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2024-08,2024
+2024-08-22,Citibank Card Payment,-90.94,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-08,2024
+2024-08-23,Electric Company Bill,-196.75,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-08,2024
+2024-08-25,BARNES & NOBLE,-37.19,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-08,2024
+2024-08-26,COSTCO GAS #0422,-51.44,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-08,2024
+2024-08-27,CONCERT VENUE,-152.7,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2024-08,2024
+2024-08-28,CHIPOTLE,-13.38,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-08,2024
+2024-08-30,ACH Credit ACME CORP – PAYROLL,2972.58,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-08,2024
+2024-08-30,CARD SERVICE FEE,-13.76,Fee,Fees,Fees,,high,Card service fee charges,fake_creditcard_1,2024-08,2024
+2024-09-01,Rent Payment – Property Mgmt,-2230.59,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-09,2024
+2024-09-02,COSTCO GAS #0422,-66.63,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-09,2024
+2024-09-03,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2024-09,2024
+2024-09-04,AIRBNB,-269.82,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2024-09,2024
+2024-09-04,APPLE.COM/BILL,-14.74,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-09,2024
+2024-09-06,CHIPOTLE,-15.51,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-09,2024
+2024-09-06,AMC THEATRES,-32.38,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2024-09,2024
+2024-09-08,Comcast Internet Service,-78.98,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-09,2024
+2024-09-09,CITY PARKING METER,-11.94,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-09,2024
+2024-09-10,Citibank Card Payment,-98.4,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-09,2024
+2024-09-10,CHIPOTLE,-24.13,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-09,2024
+2024-09-11,CONCERT VENUE,-128.03,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2024-09,2024
+2024-09-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-09,2024
+2024-09-13,AT&T Wireless Payment,-100.68,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-09,2024
+2024-09-13,ACH Credit ACME CORP – PAYROLL,3347.62,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-09,2024
+2024-09-13,MUSEUM,-38.71,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-09,2024
+2024-09-14,MUSEUM,-33.19,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2024-09,2024
+2024-09-15,HOTEL,-250.64,Sale,Travel,Travel,Hotels/Lodging,high,Hotel accommodation expenses,fake_creditcard_1,2024-09,2024
+2024-09-16,WHOLE FOODS MARKET #487,-79.29,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-09,2024
+2024-09-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-09,2024
+2024-09-18,BARNES & NOBLE,-56.42,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-09,2024
+2024-09-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-09,2024
+2024-09-19,DOORDASH RETURN,50.93,Refund,Food & Drink,Dining,Food Delivery,high,"DoorDash return should be categorized as original category (Food Delivery), not Refunds",fake_creditcard_1,2024-09,2024
+2024-09-21,Chase Sapphire Payment,-511.59,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-09,2024
+2024-09-21,CVS/PHARMACY,-18.41,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2024-09,2024
+2024-09-23,Electric Company Bill,-141.22,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-09,2024
+2024-09-23,Citibank Card Payment,-30.78,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-09,2024
+2024-09-23,CITY PARKING METER,-5.46,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-09,2024
+2024-09-24,Citibank Card Payment,-57.03,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-09,2024
+2024-09-25,BARNES & NOBLE,-37.53,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-09,2024
+2024-09-26,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-09,2024
+2024-09-27,REI,-68.75,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-09,2024
+2024-09-27,ACH Credit ACME CORP – PAYROLL,3450.2,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-09,2024
+2024-09-27,UNITED AIRLINES,-368.39,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-09,2024
+2024-09-30,ATT*BILL PAYMENT 800-288-2020 TX,-99.29,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-09,2024
+2024-10-01,CHIPOTLE,-16.84,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-10,2024
+2024-10-01,Rent Payment – Property Mgmt,-2355.06,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-10,2024
+2024-10-02,CONCERT VENUE,-91.53,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2024-10,2024
+2024-10-03,CHIPOTLE,-20.68,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-10,2024
+2024-10-03,CHIPOTLE,-8.0,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-10,2024
+2024-10-06,Citibank Card Payment,-93.47,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-10,2024
+2024-10-07,Trader Joe’s,-53.07,Debit,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a well-known grocery store specializing in natural/organic foods,fake_checking_account,2024-10,2024
+2024-10-08,Comcast Internet Service,-83.86,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-10,2024
+2024-10-08,Citibank Card Payment,-55.32,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-10,2024
+2024-10-09,Whole Foods Market,-61.88,Debit,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market organic and natural grocery store,fake_checking_account,2024-10,2024
+2024-10-11,ACH Credit ACME CORP – PAYROLL,3404.57,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-10,2024
+2024-10-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-10,2024
+2024-10-13,AT&T Wireless Payment,-101.98,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-10,2024
+2024-10-14,ATT*BILL PAYMENT 800-288-2020 TX,-83.31,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-10,2024
+2024-10-15,BALSMIQ,-16.16,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2024-10,2024
+2024-10-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-10,2024
+2024-10-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-10,2024
+2024-10-20,AMC THEATRES RETURN,29.32,Refund,Entertainment,Entertainment,Movies/Theater,high,"AMC Theatres return should be categorized as original category (Movies/Theater), not Refunds",fake_creditcard_1,2024-10,2024
+2024-10-21,Chase Sapphire Payment,-1411.99,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-10,2024
+2024-10-22,Citibank Card Payment,-83.31,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-10,2024
+2024-10-22,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2024-10,2024
+2024-10-23,Electric Company Bill,-118.74,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-10,2024
+2024-10-25,ACH Credit ACME CORP – PAYROLL,3166.99,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-10,2024
+2024-10-26,STARBUCKS,-8.47,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2024-10,2024
+2024-10-27,BALSMIQ,-18.38,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2024-10,2024
+2024-10-28,CITY PARKING METER,-14.81,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-10,2024
+2024-10-28,NIKE.COM,-85.53,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2024-10,2024
+2024-10-29,APPLE.COM/BILL,-3.76,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-10,2024
+2024-11-01,Rent Payment – Property Mgmt,-2130.98,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-11,2024
+2024-11-03,BARNES & NOBLE,-48.86,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-11,2024
+2024-11-04,ATT*BILL PAYMENT 800-288-2020 TX,-102.87,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-11,2024
+2024-11-05,SWEETGREEN,-18.92,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2024-11,2024
+2024-11-08,ACH Credit ACME CORP – PAYROLL,3427.55,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-11,2024
+2024-11-08,Comcast Internet Service,-82.0,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-11,2024
+2024-11-09,Citibank Card Payment,-14.81,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-11,2024
+2024-11-11,CITY PARKING METER,-10.34,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-11,2024
+2024-11-12,GIFTS & DONATIONS,-57.42,Sale,Gifts & Donations,Gifts,,high,Gifts and donations category based on merchant name,fake_creditcard_1,2024-11,2024
+2024-11-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-11,2024
+2024-11-13,AT&T Wireless Payment,-87.58,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-11,2024
+2024-11-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-11,2024
+2024-11-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-11,2024
+2024-11-21,Chase Sapphire Payment,-256.02,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-11,2024
+2024-11-21,Citibank Card Payment,-113.21,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-11,2024
+2024-11-22,ACH Credit ACME CORP – PAYROLL,3317.73,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-11,2024
+2024-11-23,Electric Company Bill,-74.11,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-11,2024
+2024-11-25,BARNES & NOBLE,-31.41,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2024-11,2024
+2024-11-25,Amazon Marketplace,-59.61,Debit,Shopping,Shopping,Online Shopping,high,Amazon Marketplace online purchases,fake_checking_account,2024-11,2024
+2024-11-25,COSTCO GAS #0422,-48.43,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-11,2024
+2024-11-29,STARBUCKS,-9.67,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2024-11,2024
+2024-12-01,Rent Payment – Property Mgmt,-2417.14,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2024-12,2024
+2024-12-02,LYFT 1 RIDE 12-02,-14.06,Sale,Travel,Transportation,Rideshare,high,Lyft is a rideshare service,fake_creditcard_1,2024-12,2024
+2024-12-02,CITY PARKING METER,-5.43,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2024-12,2024
+2024-12-04,SP ALLBIRDS,-90.63,Sale,Shopping,Shopping,Clothing/Apparel,high,Allbirds footwear and apparel,fake_creditcard_1,2024-12,2024
+2024-12-05,Citibank Card Payment,-48.43,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-12,2024
+2024-12-06,ACH Credit ACME CORP – PAYROLL,3602.36,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-12,2024
+2024-12-06,WHOLE FOODS MARKET #909,-61.6,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2024-12,2024
+2024-12-06,AMC THEATRES,-40.96,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2024-12,2024
+2024-12-08,Comcast Internet Service,-89.39,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2024-12,2024
+2024-12-10,REI,-62.73,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-12,2024
+2024-12-11,SQ *THE BOUNCE PLACE,-25.41,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-12,2024
+2024-12-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2024-12,2024
+2024-12-12,UNITED AIRLINES,-360.53,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-12,2024
+2024-12-13,AT&T Wireless Payment,-109.77,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2024-12,2024
+2024-12-14,CHIPOTLE,-17.97,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2024-12,2024
+2024-12-14,SQ *LA TAQUERIA,-13.25,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2024-12,2024
+2024-12-14,GIFTS & DONATIONS,-41.72,Sale,Gifts & Donations,Gifts,,high,Gifts and donations category based on merchant name,fake_creditcard_1,2024-12,2024
+2024-12-15,GOOGLE *YOUTUBE,-10.76,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2024-12,2024
+2024-12-15,SQ *THE BOUNCE PLACE,-23.79,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2024-12,2024
+2024-12-16,LYFT 1 RIDE 12-16,-12.72,Sale,Travel,Transportation,Rideshare,high,Lyft is a rideshare service,fake_creditcard_1,2024-12,2024
+2024-12-16,ATT*BILL PAYMENT 800-288-2020 TX,-115.85,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2024-12,2024
+2024-12-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2024-12,2024
+2024-12-18,UNITED AIRLINES,-396.57,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2024-12,2024
+2024-12-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2024-12,2024
+2024-12-20,Citibank Card Payment,-5.43,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2024-12,2024
+2024-12-20,ACH Credit ACME CORP – PAYROLL,3413.53,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2024-12,2024
+2024-12-20,AIRBNB,-207.98,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2024-12,2024
+2024-12-20,REI,-69.17,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2024-12,2024
+2024-12-21,Chase Sapphire Payment,-166.28,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2024-12,2024
+2024-12-21,APPLE.COM/BILL,-12.74,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2024-12,2024
+2024-12-22,AMC THEATRES,-32.02,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2024-12,2024
+2024-12-23,Electric Company Bill,-131.44,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2024-12,2024
+2024-12-23,COSTCO GAS #0422,-49.93,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-12,2024
+2024-12-29,SEPHORA,-66.28,Sale,Shopping,Shopping,Pharmacy/Personal Care,high,Sephora beauty and personal care products,fake_creditcard_1,2024-12,2024
+2024-12-30,COSTCO GAS #0422,-55.25,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2024-12,2024
+2024-12-30,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2024-12,2024
+2025-01-01,Rent Payment – Property Mgmt,-2412.75,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-01,2025
+2025-01-03,CHIPOTLE,-19.57,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-01,2025
+2025-01-03,ACH Credit ACME CORP – PAYROLL,3212.34,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-01,2025
+2025-01-05,Citibank Card Payment,-221.03,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-01,2025
+2025-01-06,COSTCO GAS #0422,-54.67,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-01,2025
+2025-01-08,Comcast Internet Service,-89.22,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-01,2025
+2025-01-09,GOOGLE *YOUTUBE,-17.24,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-01,2025
+2025-01-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-01,2025
+2025-01-13,AT&T Wireless Payment,-92.32,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-01,2025
+2025-01-14,AIRBNB,-287.71,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-01,2025
+2025-01-17,ACH Credit ACME CORP – PAYROLL,3121.68,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-01,2025
+2025-01-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-01,2025
+2025-01-18,SPOTIFY RETURN,26.9,Refund,Subscriptions,Software Subscriptions,Streaming (Music),high,"Spotify return should be categorized as original category (Music Streaming), not Refunds",fake_creditcard_1,2025-01,2025
+2025-01-18,NIKE.COM,-64.75,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-01,2025
+2025-01-19,APPLE.COM/BILL,-8.2,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2025-01,2025
+2025-01-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-01,2025
+2025-01-21,MUSEUM,-47.07,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-01,2025
+2025-01-21,Chase Sapphire Payment,-1571.88,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-01,2025
+2025-01-22,DOORDASH,-30.85,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-01,2025
+2025-01-23,Electric Company Bill,-105.76,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-01,2025
+2025-01-24,Citibank Card Payment,-54.67,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-01,2025
+2025-01-25,REI,-165.02,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2025-01,2025
+2025-01-27,INSTACART,-95.2,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2025-01,2025
+2025-01-27,ATT*BILL PAYMENT 800-288-2020 TX,-110.75,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-01,2025
+2025-01-31,ACH Credit ACME CORP – PAYROLL,3418.39,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-01,2025
+2025-02-01,Rent Payment – Property Mgmt,-2196.21,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-02,2025
+2025-02-03,COSTCO GAS #0422,-66.22,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-02,2025
+2025-02-04,CHIPOTLE,-19.12,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-02,2025
+2025-02-06,Citibank Card Payment,-110.75,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-02,2025
+2025-02-08,Comcast Internet Service,-72.16,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-02,2025
+2025-02-10,COSTCO GAS #0422,-26.68,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-02,2025
+2025-02-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-02,2025
+2025-02-13,AT&T Wireless Payment,-104.09,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-02,2025
+2025-02-14,ACH Credit ACME CORP – PAYROLL,3221.65,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-02,2025
+2025-02-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-02,2025
+2025-02-17,AMC THEATRES,-17.78,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-02,2025
+2025-02-17,CITY PARKING METER,-12.42,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-02,2025
+2025-02-17,GOOGLE *YOUTUBE,-19.33,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-02,2025
+2025-02-18,NIKE.COM,-132.3,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-02,2025
+2025-02-19,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2025-02,2025
+2025-02-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-02,2025
+2025-02-20,Citibank Card Payment,-92.9,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-02,2025
+2025-02-21,Chase Sapphire Payment,-708.71,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-02,2025
+2025-02-21,AIRBNB,-328.5,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-02,2025
+2025-02-23,Electric Company Bill,-174.46,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-02,2025
+2025-02-24,ATT*BILL PAYMENT 800-288-2020 TX,-112.33,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-02,2025
+2025-02-25,DOORDASH,-40.02,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-02,2025
+2025-02-25,GOOGLE *YOUTUBE,-21.76,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-02,2025
+2025-02-27,HOTEL,-165.61,Sale,Travel,Travel,Hotels/Lodging,high,Hotel accommodation expenses,fake_creditcard_1,2025-02,2025
+2025-02-27,DOORDASH,-44.67,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-02,2025
+2025-02-28,ACH Credit ACME CORP – PAYROLL,3342.83,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-02,2025
+2025-03-01,Rent Payment – Property Mgmt,-2458.13,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-03,2025
+2025-03-03,COSTCO GAS #0422,-67.88,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-03,2025
+2025-03-04,GOOGLE *YOUTUBE,-14.59,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-03,2025
+2025-03-08,Comcast Internet Service,-80.91,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-03,2025
+2025-03-08,Citibank Card Payment,-79.09,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-03,2025
+2025-03-10,CVS/PHARMACY,-25.09,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-03,2025
+2025-03-10,COSTCO GAS #0422,-48.18,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-03,2025
+2025-03-11,Citibank Card Payment,-51.24,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-03,2025
+2025-03-11,MUSEUM,-30.2,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-03,2025
+2025-03-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-03,2025
+2025-03-13,AT&T Wireless Payment,-112.65,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-03,2025
+2025-03-14,ACH Credit ACME CORP – PAYROLL,3397.51,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-03,2025
+2025-03-16,GIFTS & DONATIONS,-81.85,Sale,Gifts & Donations,Gifts,,high,Gifts and donations category based on merchant name,fake_creditcard_1,2025-03,2025
+2025-03-17,CHIPOTLE,-14.17,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-03,2025
+2025-03-17,COSTCO GAS #0422,-67.12,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-03,2025
+2025-03-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-03,2025
+2025-03-18,AMC THEATRES,-42.3,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-03,2025
+2025-03-19,CVS/PHARMACY,-9.76,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-03,2025
+2025-03-19,DOORDASH,-49.04,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-03,2025
+2025-03-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-03,2025
+2025-03-19,WHOLE FOODS MARKET #567,-60.51,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2025-03,2025
+2025-03-21,Chase Sapphire Payment,-887.83,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-03,2025
+2025-03-22,Citibank Card Payment,-116.06,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-03,2025
+2025-03-22,NIKE.COM,-107.81,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-03,2025
+2025-03-23,Electric Company Bill,-165.41,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-03,2025
+2025-03-24,UBER TRIP,-14.79,Sale,Travel,Transportation,Rideshare,high,Uber rideshare transportation service,fake_creditcard_1,2025-03,2025
+2025-03-24,COSTCO GAS #0422,-27.02,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-03,2025
+2025-03-28,ACH Credit ACME CORP – PAYROLL,3517.01,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-03,2025
+2025-03-28,CHIPOTLE,-17.98,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-03,2025
+2025-03-31,CITY PARKING METER,-24.85,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-03,2025
+2025-04-01,Rent Payment – Property Mgmt,-2384.84,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-04,2025
+2025-04-05,UBER TRIP,-20.05,Sale,Travel,Transportation,Rideshare,high,Uber rideshare transportation service,fake_creditcard_1,2025-04,2025
+2025-04-07,ATT*BILL PAYMENT 800-288-2020 TX,-109.94,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-04,2025
+2025-04-07,Citibank Card Payment,-118.99,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-04,2025
+2025-04-07,GIFTS & DONATIONS RETURN,56.02,Refund,Gifts & Donations,Gifts,,high,"Gifts & Donations return should be categorized as original category (Gifts), not Refunds",fake_creditcard_1,2025-04,2025
+2025-04-08,Comcast Internet Service,-73.23,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-04,2025
+2025-04-11,ACH Credit ACME CORP – PAYROLL,3385.25,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-04,2025
+2025-04-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-04,2025
+2025-04-13,AT&T Wireless Payment,-92.2,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-04,2025
+2025-04-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-04,2025
+2025-04-17,TARGET #636,-111.29,Sale,Shopping,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",fake_creditcard_1,2025-04,2025
+2025-04-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-04,2025
+2025-04-21,ATT*BILL PAYMENT 800-288-2020 TX,-115.74,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-04,2025
+2025-04-21,Chase Sapphire Payment,-485.45,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-04,2025
+2025-04-21,MUSEUM,-34.46,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-04,2025
+2025-04-23,Electric Company Bill,-137.83,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-04,2025
+2025-04-24,Citibank Card Payment,-109.94,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-04,2025
+2025-04-25,ACH Credit ACME CORP – PAYROLL,3215.01,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-04,2025
+2025-04-26,TARGET #209,-52.27,Sale,Shopping,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",fake_creditcard_1,2025-04,2025
+2025-04-27,AMC THEATRES,-42.4,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-04,2025
+2025-04-28,CONCERT VENUE,-93.93,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2025-04,2025
+2025-04-28,DOORDASH,-52.62,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-04,2025
+2025-04-30,REI,-117.69,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2025-04,2025
+2025-05-01,Rent Payment – Property Mgmt,-2304.21,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-05,2025
+2025-05-02,CVS Pharmacy,-29.13,Debit,Health,Healthcare,Pharmacy,high,CVS Pharmacy healthcare and personal care items,fake_checking_account,2025-05,2025
+2025-05-05,CITY PARKING METER,-11.32,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-05,2025
+2025-05-07,HOTEL,-175.39,Sale,Travel,Travel,Hotels/Lodging,high,Hotel accommodation expenses,fake_creditcard_1,2025-05,2025
+2025-05-08,Comcast Internet Service,-77.24,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-05,2025
+2025-05-08,Citibank Card Payment,-164.59,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-05,2025
+2025-05-09,SEPHORA,-37.31,Sale,Shopping,Shopping,Pharmacy/Personal Care,high,Sephora beauty and personal care products,fake_creditcard_1,2025-05,2025
+2025-05-09,CVS/PHARMACY,-24.37,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-05,2025
+2025-05-09,ACH Credit ACME CORP – PAYROLL,3180.63,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-05,2025
+2025-05-09,Starbucks Store,-7.86,Debit,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_checking_account,2025-05,2025
+2025-05-10,TICKETMASTER,-116.28,Sale,Entertainment,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,fake_creditcard_1,2025-05,2025
+2025-05-11,SQ *THE BOUNCE PLACE,-29.52,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2025-05,2025
+2025-05-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-05,2025
+2025-05-12,ATT*BILL PAYMENT 800-288-2020 TX,-106.47,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-05,2025
+2025-05-13,AT&T Wireless Payment,-92.75,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-05,2025
+2025-05-14,CARD SERVICE FEE,-4.79,Fee,Fees,Fees,,high,Card service fee charges,fake_creditcard_1,2025-05,2025
+2025-05-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-05,2025
+2025-05-17,GOOGLE *YOUTUBE RETURN,15.77,Refund,Subscriptions,Software Subscriptions,Streaming (Video),high,"YouTube return should be categorized as original category (Video Streaming), not Refunds",fake_creditcard_1,2025-05,2025
+2025-05-17,CARD SERVICE FEE,-9.41,Fee,Fees,Fees,,high,Card service fee charges,fake_creditcard_1,2025-05,2025
+2025-05-18,REI,-147.81,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2025-05,2025
+2025-05-18,BALSMIQ,-13.97,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2025-05,2025
+2025-05-18,CONCERT VENUE,-121.54,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2025-05,2025
+2025-05-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-05,2025
+2025-05-20,SP ALLBIRDS,-93.82,Sale,Shopping,Shopping,Clothing/Apparel,high,Allbirds footwear and apparel,fake_creditcard_1,2025-05,2025
+2025-05-21,STARBUCKS,-9.87,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2025-05,2025
+2025-05-21,Chase Sapphire Payment,-531.47,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-05,2025
+2025-05-23,ACH Credit ACME CORP – PAYROLL,3557.43,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-05,2025
+2025-05-23,Electric Company Bill,-146.7,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-05,2025
+2025-05-24,Citibank Card Payment,-162.74,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-05,2025
+2025-05-26,COSTCO GAS #0422,-29.25,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-05,2025
+2025-05-27,CHIPOTLE,-18.06,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-05,2025
+2025-05-30,WALGREENS,-40.38,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2025-05,2025
+2025-05-30,UNITED AIRLINES,-421.81,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2025-05,2025
+2025-06-01,GOOGLE *YOUTUBE,-13.86,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-06,2025
+2025-06-01,SQ *THE BOUNCE PLACE,-19.57,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2025-06,2025
+2025-06-01,Rent Payment – Property Mgmt,-2384.16,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-06,2025
+2025-06-02,ATT*BILL PAYMENT 800-288-2020 TX,-90.5,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-06,2025
+2025-06-06,AMAZON.COM ORDER 826307,-67.93,Sale,Shopping,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,fake_creditcard_1,2025-06,2025
+2025-06-06,ACH Credit ACME CORP – PAYROLL,3285.25,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-06,2025
+2025-06-07,Citibank Card Payment,-29.25,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-06,2025
+2025-06-07,WHOLE FOODS MARKET #30,-62.34,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2025-06,2025
+2025-06-08,Comcast Internet Service,-73.28,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-06,2025
+2025-06-09,ATT*BILL PAYMENT 800-288-2020 TX,-89.64,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-06,2025
+2025-06-12,TICKETMASTER,-117.85,Sale,Entertainment,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,fake_creditcard_1,2025-06,2025
+2025-06-12,WHOLE FOODS MARKET #511,-72.98,Sale,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,fake_creditcard_1,2025-06,2025
+2025-06-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-06,2025
+2025-06-13,REI,-127.31,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2025-06,2025
+2025-06-13,AT&T Wireless Payment,-99.07,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-06,2025
+2025-06-14,INSTACART,-61.37,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2025-06,2025
+2025-06-16,COSTCO GAS #0422,-62.4,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-06,2025
+2025-06-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-06,2025
+2025-06-17,MUSEUM,-34.07,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-06,2025
+2025-06-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-06,2025
+2025-06-20,ACH Credit ACME CORP – PAYROLL,3253.05,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-06,2025
+2025-06-21,NIKE.COM,-118.71,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-06,2025
+2025-06-21,STARBUCKS,-8.43,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2025-06,2025
+2025-06-21,Chase Sapphire Payment,-1248.56,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-06,2025
+2025-06-23,Electric Company Bill,-162.05,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-06,2025
+2025-06-23,COSTCO GAS #0422,-33.07,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-06,2025
+2025-06-23,Citibank Card Payment,-180.14,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-06,2025
+2025-06-30,CITY PARKING METER,-22.49,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-06,2025
+2025-07-01,Rent Payment – Property Mgmt,-2365.56,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-07,2025
+2025-07-04,SQ *THE BOUNCE PLACE,-30.47,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2025-07,2025
+2025-07-04,ACH Credit ACME CORP – PAYROLL,3315.54,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-07,2025
+2025-07-06,UNITED AIRLINES,-429.14,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2025-07,2025
+2025-07-07,LYFT 1 RIDE 07-07,-15.44,Sale,Travel,Transportation,Rideshare,high,Lyft is a rideshare service,fake_creditcard_1,2025-07,2025
+2025-07-07,COSTCO GAS #0422,-38.96,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-07,2025
+2025-07-08,Comcast Internet Service,-83.78,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-07,2025
+2025-07-09,Citibank Card Payment,-159.39,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-07,2025
+2025-07-11,TARGET #575,-76.83,Sale,Shopping,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",fake_creditcard_1,2025-07,2025
+2025-07-12,DOORDASH,-38.39,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-07,2025
+2025-07-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-07,2025
+2025-07-13,AT&T Wireless Payment,-93.32,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-07,2025
+2025-07-14,ATT*BILL PAYMENT 800-288-2020 TX,-118.87,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-07,2025
+2025-07-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-07,2025
+2025-07-18,AIRBNB,-270.31,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-07,2025
+2025-07-18,APPLE.COM/BILL,-6.48,Sale,Subscriptions,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,fake_creditcard_1,2025-07,2025
+2025-07-18,Target Store,-104.04,Debit,Shopping,Shopping,Home/Furniture,high,Target store general merchandise and home goods,fake_checking_account,2025-07,2025
+2025-07-18,ACH Credit ACME CORP – PAYROLL,3253.59,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-07,2025
+2025-07-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-07,2025
+2025-07-19,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2025-07,2025
+2025-07-21,CITY PARKING METER,-7.88,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-07,2025
+2025-07-21,Citibank Card Payment,-83.79,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-07,2025
+2025-07-21,Chase Sapphire Payment,-704.42,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-07,2025
+2025-07-21,CVS/PHARMACY,-18.29,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-07,2025
+2025-07-22,Citibank Card Payment,-74.04,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-07,2025
+2025-07-23,NIKE.COM,-96.87,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-07,2025
+2025-07-23,Electric Company Bill,-129.71,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-07,2025
+2025-07-26,CVS/PHARMACY,-21.34,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-07,2025
+2025-07-26,TARGET #218,-72.97,Sale,Shopping,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",fake_creditcard_1,2025-07,2025
+2025-07-26,DoorDash,-46.77,Debit,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_checking_account,2025-07,2025
+2025-07-27,MUSEUM,-41.1,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-07,2025
+2025-07-28,LULULEMON,-97.42,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2025-07,2025
+2025-07-28,COSTCO GAS #0422,-35.33,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-07,2025
+2025-07-29,SWEETGREEN,-24.27,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2025-07,2025
+2025-07-29,LULULEMON,-147.39,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2025-07,2025
+2025-08-01,Rent Payment – Property Mgmt,-2232.07,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-08,2025
+2025-08-01,AIRBNB,-282.38,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-08,2025
+2025-08-01,ACH Credit ACME CORP – PAYROLL,3083.26,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-08,2025
+2025-08-02,LYFT 1 RIDE 08-02,-13.79,Sale,Travel,Transportation,Rideshare,high,Lyft is a rideshare service,fake_creditcard_1,2025-08,2025
+2025-08-02,BALSMIQ,-9.63,Sale,Shopping,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,fake_creditcard_1,2025-08,2025
+2025-08-04,Whole Foods Market,-98.55,Debit,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market organic and natural grocery store,fake_checking_account,2025-08,2025
+2025-08-04,COSTCO GAS #0422,-55.49,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-08,2025
+2025-08-06,SP ALLBIRDS,-85.96,Sale,Shopping,Shopping,Clothing/Apparel,high,Allbirds footwear and apparel,fake_creditcard_1,2025-08,2025
+2025-08-07,Citibank Card Payment,-43.21,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-08,2025
+2025-08-08,Comcast Internet Service,-82.31,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-08,2025
+2025-08-08,SQ *LA TAQUERIA,-16.81,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2025-08,2025
+2025-08-09,AIRBNB,-302.53,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-08,2025
+2025-08-11,SQ *LA TAQUERIA,-11.58,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2025-08,2025
+2025-08-11,COSTCO GAS #0422,-47.78,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-08,2025
+2025-08-12,DOORDASH,-52.53,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-08,2025
+2025-08-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-08,2025
+2025-08-13,AT&T Wireless Payment,-105.6,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-08,2025
+2025-08-15,ACH Credit ACME CORP – PAYROLL,3220.77,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-08,2025
+2025-08-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-08,2025
+2025-08-17,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2025-08,2025
+2025-08-18,CITY PARKING METER,-16.62,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-08,2025
+2025-08-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-08,2025
+2025-08-21,Chase Sapphire Payment,-1402.7,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-08,2025
+2025-08-21,BARNES & NOBLE,-53.83,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2025-08,2025
+2025-08-21,UBER TRIP,-20.43,Sale,Travel,Transportation,Rideshare,high,Uber rideshare transportation service,fake_creditcard_1,2025-08,2025
+2025-08-22,Citibank Card Payment,-103.27,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-08,2025
+2025-08-23,Electric Company Bill,-160.38,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-08,2025
+2025-08-24,AIRBNB,-279.09,Sale,Travel,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,fake_creditcard_1,2025-08,2025
+2025-08-25,COSTCO GAS #0422,-61.19,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-08,2025
+2025-08-26,GOOGLE *YOUTUBE,-18.31,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-08,2025
+2025-08-27,SQ *THE BOUNCE PLACE,-20.42,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2025-08,2025
+2025-08-29,ACH Credit ACME CORP – PAYROLL,3236.58,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-08,2025
+2025-08-29,CHIPOTLE,-14.39,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-08,2025
+2025-08-31,TICKETMASTER,-105.88,Sale,Entertainment,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,fake_creditcard_1,2025-08,2025
+2025-09-01,Rent Payment – Property Mgmt,-2349.58,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-09,2025
+2025-09-01,ATT*BILL PAYMENT 800-288-2020 TX,-109.56,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-09,2025
+2025-09-05,GOOGLE *YOUTUBE,-12.27,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-09,2025
+2025-09-06,CVS/PHARMACY,-16.45,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-09,2025
+2025-09-08,Comcast Internet Service,-76.72,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-09,2025
+2025-09-09,Citibank Card Payment,-77.81,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-09,2025
+2025-09-10,Uber Trip,-24.15,Debit,Transportation,Transportation,Rideshare,high,Uber is a rideshare service,fake_checking_account,2025-09,2025
+2025-09-12,ACH Credit ACME CORP – PAYROLL,3129.4,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-09,2025
+2025-09-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-09,2025
+2025-09-12,GOOGLE *YOUTUBE,-11.96,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-09,2025
+2025-09-13,AT&T Wireless Payment,-102.78,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-09,2025
+2025-09-13,AMAZON.COM ORDER 586787,-87.9,Sale,Shopping,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,fake_creditcard_1,2025-09,2025
+2025-09-14,AMC THEATRES,-35.09,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-09,2025
+2025-09-15,DOORDASH,-43.15,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-09,2025
+2025-09-15,COSTCO GAS #0422,-30.57,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-09,2025
+2025-09-16,DoorDash,-43.08,Debit,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_checking_account,2025-09,2025
+2025-09-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-09,2025
+2025-09-17,REI,-56.63,Sale,Shopping,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,fake_creditcard_1,2025-09,2025
+2025-09-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-09,2025
+2025-09-20,DOORDASH,-47.56,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-09,2025
+2025-09-21,SQ *LA TAQUERIA,-6.0,Sale,Food & Drink,Dining,Restaurants,high,La Taqueria restaurant dining,fake_creditcard_1,2025-09,2025
+2025-09-21,Chase Sapphire Payment,-1303.55,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-09,2025
+2025-09-22,ATT*BILL PAYMENT 800-288-2020 TX,-95.9,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-09,2025
+2025-09-22,STARBUCKS,-6.06,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2025-09,2025
+2025-09-23,Citibank Card Payment,-140.13,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-09,2025
+2025-09-23,Electric Company Bill,-119.79,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-09,2025
+2025-09-26,ACH Credit ACME CORP – PAYROLL,3514.62,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-09,2025
+2025-09-29,COSTCO GAS #0422,-46.99,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-09,2025
+2025-09-29,BARNES & NOBLE,-28.24,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2025-09,2025
+2025-10-01,Rent Payment – Property Mgmt,-2281.41,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-10,2025
+2025-10-03,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2025-10,2025
+2025-10-04,CVS Pharmacy,-37.4,Debit,Health,Healthcare,Pharmacy,high,CVS Pharmacy healthcare and personal care items,fake_checking_account,2025-10,2025
+2025-10-08,GOOGLE *YOUTUBE,-18.01,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-10,2025
+2025-10-08,Comcast Internet Service,-79.73,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-10,2025
+2025-10-10,ACH Credit ACME CORP – PAYROLL,3389.26,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-10,2025
+2025-10-10,Citibank Card Payment,-80.3,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-10,2025
+2025-10-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-10,2025
+2025-10-12,Citibank Card Payment,-62.59,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-10,2025
+2025-10-12,NIKE.COM,-25.0,Sale,Shopping,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,fake_creditcard_1,2025-10,2025
+2025-10-13,AT&T Wireless Payment,-100.25,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-10,2025
+2025-10-15,NETFLIX.COM,-15.99,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,fake_creditcard_1,2025-10,2025
+2025-10-16,GOOGLE *YOUTUBE,-13.54,Sale,Subscriptions,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,fake_creditcard_1,2025-10,2025
+2025-10-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-10,2025
+2025-10-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-10,2025
+2025-10-20,CITY PARKING METER,-24.11,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-10,2025
+2025-10-20,CONCERT VENUE,-112.82,Sale,Entertainment,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,fake_creditcard_1,2025-10,2025
+2025-10-20,LULULEMON,-66.28,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2025-10,2025
+2025-10-21,Chase Sapphire Payment,-368.87,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-10,2025
+2025-10-21,WALGREENS,-44.51,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2025-10,2025
+2025-10-22,AMC THEATRES,-26.71,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-10,2025
+2025-10-23,Electric Company Bill,-125.5,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-10,2025
+2025-10-24,ACH Credit ACME CORP – PAYROLL,3266.85,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-10,2025
+2025-10-27,CVS/PHARMACY,-18.71,Sale,Health,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,fake_creditcard_1,2025-10,2025
+2025-10-31,AMC THEATRES,-20.23,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-10,2025
+2025-10-31,AMC THEATRES,-49.89,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-10,2025
+2025-11-01,Rent Payment – Property Mgmt,-2425.08,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-11,2025
+2025-11-01,MUSEUM,-32.72,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-11,2025
+2025-11-03,COSTCO GAS #0422,-66.62,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-11,2025
+2025-11-05,AMC THEATRES,-39.08,Sale,Entertainment,Entertainment,Movies/Theater,high,AMC movie theater tickets,fake_creditcard_1,2025-11,2025
+2025-11-07,Citibank Card Payment,-24.11,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-11,2025
+2025-11-07,ACH Credit ACME CORP – PAYROLL,3113.17,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-11,2025
+2025-11-08,UNITED AIRLINES,-401.16,Sale,Travel,Travel,Airfare,high,United Airlines flight bookings,fake_creditcard_1,2025-11,2025
+2025-11-08,Comcast Internet Service,-81.13,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-11,2025
+2025-11-08,HOTEL RETURN,225.7,Refund,Travel,Travel,Hotels/Lodging,high,"Hotel return should be categorized as original category (Hotels/Lodging), not Refunds",fake_creditcard_1,2025-11,2025
+2025-11-08,DOORDASH,-35.49,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-11,2025
+2025-11-10,COSTCO GAS #0422,-49.98,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-11,2025
+2025-11-10,TARGET #15,-99.14,Sale,Shopping,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",fake_creditcard_1,2025-11,2025
+2025-11-11,SWEETGREEN,-20.73,Sale,Food & Drink,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,fake_creditcard_1,2025-11,2025
+2025-11-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-11,2025
+2025-11-12,CHIPOTLE,-13.22,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-11,2025
+2025-11-13,AT&T Wireless Payment,-111.89,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-11,2025
+2025-11-13,AMAZON.COM RETURN,50.81,Refund,Shopping,Shopping,Online Shopping,high,"Amazon return should be categorized as original category (Online Shopping), not Refunds",fake_creditcard_1,2025-11,2025
+2025-11-15,STARBUCKS,-10.51,Sale,Food & Drink,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,fake_creditcard_1,2025-11,2025
+2025-11-17,CITY PARKING METER,-7.12,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-11,2025
+2025-11-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-11,2025
+2025-11-17,DOORDASH,-55.48,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-11,2025
+2025-11-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-11,2025
+2025-11-21,Chase Sapphire Payment,-427.68,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-11,2025
+2025-11-21,ACH Credit ACME CORP – PAYROLL,3325.31,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-11,2025
+2025-11-21,LULULEMON,-130.53,Sale,Shopping,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,fake_creditcard_1,2025-11,2025
+2025-11-23,Electric Company Bill,-176.75,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-11,2025
+2025-11-23,REI RETURN,126.42,Refund,Shopping,Shopping,Sporting Goods,high,REI return - keeping original category as sporting goods refund,fake_creditcard_1,2025-11,2025
+2025-11-24,COSTCO GAS #0422,-43.86,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-11,2025
+2025-11-24,CHIPOTLE,-15.86,Sale,Food & Drink,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,fake_creditcard_1,2025-11,2025
+2025-11-25,Citibank Card Payment,-56.53,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-11,2025
+2025-11-26,Citibank Card Payment,-60.07,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-11,2025
+2025-11-29,SQ *THE BOUNCE PLACE,-14.34,Sale,Entertainment,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,fake_creditcard_1,2025-11,2025
+2025-11-30,Whole Foods Market,-81.18,Debit,Groceries,Groceries,Organic/Natural Foods,high,Whole Foods Market organic and natural grocery store,fake_checking_account,2025-11,2025
+2025-12-01,ATT*BILL PAYMENT 800-288-2020 TX,-103.84,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-12,2025
+2025-12-01,Rent Payment – Property Mgmt,-2263.88,Debit,Housing,Bill Payments,,high,Monthly rent payment to property management company,fake_checking_account,2025-12,2025
+2025-12-02,TICKETMASTER,-96.41,Sale,Entertainment,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,fake_creditcard_1,2025-12,2025
+2025-12-03,WALGREENS,-50.91,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2025-12,2025
+2025-12-05,ACH Credit ACME CORP – PAYROLL,3354.15,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-12,2025
+2025-12-07,TRADER JOE'S #581,-57.65,Sale,Groceries,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,fake_creditcard_1,2025-12,2025
+2025-12-08,Comcast Internet Service,-76.86,Debit,Utilities,Utilities,Internet/Cable,high,Comcast internet service provider payment,fake_checking_account,2025-12,2025
+2025-12-08,Citibank Card Payment,-57.56,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-12,2025
+2025-12-10,INSTACART,-103.28,Sale,Groceries,Groceries,Other Groceries,high,Instacart grocery delivery service,fake_creditcard_1,2025-12,2025
+2025-12-12,MUSEUM,-36.28,Sale,Entertainment,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,fake_creditcard_1,2025-12,2025
+2025-12-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,fake_checking_account,2025-12,2025
+2025-12-13,AT&T Wireless Payment,-97.78,Debit,Utilities,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,fake_checking_account,2025-12,2025
+2025-12-14,BARNES & NOBLE,-49.16,Sale,Shopping,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,fake_creditcard_1,2025-12,2025
+2025-12-15,ATT*BILL PAYMENT 800-288-2020 TX,-112.17,Debit,Services,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,fake_creditcard2,2025-12,2025
+2025-12-15,SEPHORA,-76.63,Sale,Shopping,Shopping,Pharmacy/Personal Care,high,Sephora beauty and personal care products,fake_creditcard_1,2025-12,2025
+2025-12-17,ACH Debit Spotify,-10.99,Debit,Entertainment,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,fake_checking_account,2025-12,2025
+2025-12-17,WALGREENS,-35.5,Sale,Health,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,fake_creditcard_1,2025-12,2025
+2025-12-19,ACH Credit ACME CORP – PAYROLL,3359.43,Credit,Payroll,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,fake_checking_account,2025-12,2025
+2025-12-19,Apple iCloud Storage,-2.99,Debit,Utilities,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,fake_checking_account,2025-12,2025
+2025-12-20,Citibank Card Payment,-223.16,Debit,Credit Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,fake_checking_account,2025-12,2025
+2025-12-21,Chase Sapphire Payment,-465.33,Debit,Credit Card Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,fake_checking_account,2025-12,2025
+2025-12-22,DOORDASH,-39.7,Sale,Food & Drink,Dining,Food Delivery,high,DoorDash food delivery service,fake_creditcard_1,2025-12,2025
+2025-12-22,CITY PARKING METER,-20.7,Debit,Transportation,Transportation,Parking,high,City parking meter payments,fake_creditcard2,2025-12,2025
+2025-12-23,Electric Company Bill,-130.14,Debit,Utilities,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,fake_checking_account,2025-12,2025
+2025-12-25,SPOTIFY,-10.99,Sale,Subscriptions,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,fake_creditcard_1,2025-12,2025
+2025-12-29,COSTCO GAS #0422,-29.91,Debit,Vehicle Services,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,fake_creditcard2,2025-12,2025

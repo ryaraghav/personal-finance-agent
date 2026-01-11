@@ -1,0 +1,81 @@
+date,description,amount,type,category,source,month,year
+2024-01-15,CITY PARKING METER,-13.13,Debit,Transportation,fake_creditcard2,2024-01,2024
+2024-01-22,ATT*BILL PAYMENT 800-288-2020 TX,-86.68,Debit,Services,fake_creditcard2,2024-01,2024
+2024-01-29,COSTCO GAS #0422,-29.05,Debit,Vehicle Services,fake_creditcard2,2024-01,2024
+2024-02-05,ATT*BILL PAYMENT 800-288-2020 TX,-98.48,Debit,Services,fake_creditcard2,2024-02,2024
+2024-02-12,COSTCO GAS #0422,-47.55,Debit,Vehicle Services,fake_creditcard2,2024-02,2024
+2024-02-19,COSTCO GAS #0422,-56.33,Debit,Vehicle Services,fake_creditcard2,2024-02,2024
+2024-02-26,CITY PARKING METER,-12.62,Debit,Transportation,fake_creditcard2,2024-02,2024
+2024-03-11,COSTCO GAS #0422,-53.36,Debit,Vehicle Services,fake_creditcard2,2024-03,2024
+2024-03-25,COSTCO GAS #0422,-28.94,Debit,Vehicle Services,fake_creditcard2,2024-03,2024
+2024-04-08,COSTCO GAS #0422,-68.29,Debit,Vehicle Services,fake_creditcard2,2024-04,2024
+2024-04-29,ATT*BILL PAYMENT 800-288-2020 TX,-107.99,Debit,Services,fake_creditcard2,2024-04,2024
+2024-05-06,COSTCO GAS #0422,-68.61,Debit,Vehicle Services,fake_creditcard2,2024-05,2024
+2024-05-20,ATT*BILL PAYMENT 800-288-2020 TX,-108.68,Debit,Services,fake_creditcard2,2024-05,2024
+2024-05-27,CITY PARKING METER,-10.44,Debit,Transportation,fake_creditcard2,2024-05,2024
+2024-06-10,COSTCO GAS #0422,-65.62,Debit,Vehicle Services,fake_creditcard2,2024-06,2024
+2024-06-17,CITY PARKING METER,-9.05,Debit,Transportation,fake_creditcard2,2024-06,2024
+2024-06-24,COSTCO GAS #0422,-51.06,Debit,Vehicle Services,fake_creditcard2,2024-06,2024
+2024-07-01,COSTCO GAS #0422,-63.55,Debit,Vehicle Services,fake_creditcard2,2024-07,2024
+2024-07-08,ATT*BILL PAYMENT 800-288-2020 TX,-108.78,Debit,Services,fake_creditcard2,2024-07,2024
+2024-07-15,CITY PARKING METER,-17.55,Debit,Transportation,fake_creditcard2,2024-07,2024
+2024-07-22,CITY PARKING METER,-18.0,Debit,Transportation,fake_creditcard2,2024-07,2024
+2024-08-05,COSTCO GAS #0422,-43.71,Debit,Vehicle Services,fake_creditcard2,2024-08,2024
+2024-08-12,COSTCO GAS #0422,-47.23,Debit,Vehicle Services,fake_creditcard2,2024-08,2024
+2024-08-19,COSTCO GAS #0422,-31.5,Debit,Vehicle Services,fake_creditcard2,2024-08,2024
+2024-08-26,COSTCO GAS #0422,-51.44,Debit,Vehicle Services,fake_creditcard2,2024-08,2024
+2024-09-02,COSTCO GAS #0422,-66.63,Debit,Vehicle Services,fake_creditcard2,2024-09,2024
+2024-09-09,CITY PARKING METER,-11.94,Debit,Transportation,fake_creditcard2,2024-09,2024
+2024-09-23,CITY PARKING METER,-5.46,Debit,Transportation,fake_creditcard2,2024-09,2024
+2024-09-30,ATT*BILL PAYMENT 800-288-2020 TX,-99.29,Debit,Services,fake_creditcard2,2024-09,2024
+2024-10-14,ATT*BILL PAYMENT 800-288-2020 TX,-83.31,Debit,Services,fake_creditcard2,2024-10,2024
+2024-10-28,CITY PARKING METER,-14.81,Debit,Transportation,fake_creditcard2,2024-10,2024
+2024-11-04,ATT*BILL PAYMENT 800-288-2020 TX,-102.87,Debit,Services,fake_creditcard2,2024-11,2024
+2024-11-11,CITY PARKING METER,-10.34,Debit,Transportation,fake_creditcard2,2024-11,2024
+2024-11-25,COSTCO GAS #0422,-48.43,Debit,Vehicle Services,fake_creditcard2,2024-11,2024
+2024-12-02,CITY PARKING METER,-5.43,Debit,Transportation,fake_creditcard2,2024-12,2024
+2024-12-16,ATT*BILL PAYMENT 800-288-2020 TX,-115.85,Debit,Services,fake_creditcard2,2024-12,2024
+2024-12-23,COSTCO GAS #0422,-49.93,Debit,Vehicle Services,fake_creditcard2,2024-12,2024
+2024-12-30,COSTCO GAS #0422,-55.25,Debit,Vehicle Services,fake_creditcard2,2024-12,2024
+2025-01-06,COSTCO GAS #0422,-54.67,Debit,Vehicle Services,fake_creditcard2,2025-01,2025
+2025-01-27,ATT*BILL PAYMENT 800-288-2020 TX,-110.75,Debit,Services,fake_creditcard2,2025-01,2025
+2025-02-03,COSTCO GAS #0422,-66.22,Debit,Vehicle Services,fake_creditcard2,2025-02,2025
+2025-02-10,COSTCO GAS #0422,-26.68,Debit,Vehicle Services,fake_creditcard2,2025-02,2025
+2025-02-17,CITY PARKING METER,-12.42,Debit,Transportation,fake_creditcard2,2025-02,2025
+2025-02-24,ATT*BILL PAYMENT 800-288-2020 TX,-112.33,Debit,Services,fake_creditcard2,2025-02,2025
+2025-03-03,COSTCO GAS #0422,-67.88,Debit,Vehicle Services,fake_creditcard2,2025-03,2025
+2025-03-10,COSTCO GAS #0422,-48.18,Debit,Vehicle Services,fake_creditcard2,2025-03,2025
+2025-03-17,COSTCO GAS #0422,-67.12,Debit,Vehicle Services,fake_creditcard2,2025-03,2025
+2025-03-24,COSTCO GAS #0422,-27.02,Debit,Vehicle Services,fake_creditcard2,2025-03,2025
+2025-03-31,CITY PARKING METER,-24.85,Debit,Transportation,fake_creditcard2,2025-03,2025
+2025-04-07,ATT*BILL PAYMENT 800-288-2020 TX,-109.94,Debit,Services,fake_creditcard2,2025-04,2025
+2025-04-21,ATT*BILL PAYMENT 800-288-2020 TX,-115.74,Debit,Services,fake_creditcard2,2025-04,2025
+2025-05-05,CITY PARKING METER,-11.32,Debit,Transportation,fake_creditcard2,2025-05,2025
+2025-05-12,ATT*BILL PAYMENT 800-288-2020 TX,-106.47,Debit,Services,fake_creditcard2,2025-05,2025
+2025-05-26,COSTCO GAS #0422,-29.25,Debit,Vehicle Services,fake_creditcard2,2025-05,2025
+2025-06-02,ATT*BILL PAYMENT 800-288-2020 TX,-90.5,Debit,Services,fake_creditcard2,2025-06,2025
+2025-06-09,ATT*BILL PAYMENT 800-288-2020 TX,-89.64,Debit,Services,fake_creditcard2,2025-06,2025
+2025-06-16,COSTCO GAS #0422,-62.4,Debit,Vehicle Services,fake_creditcard2,2025-06,2025
+2025-06-23,COSTCO GAS #0422,-33.07,Debit,Vehicle Services,fake_creditcard2,2025-06,2025
+2025-06-30,CITY PARKING METER,-22.49,Debit,Transportation,fake_creditcard2,2025-06,2025
+2025-07-07,COSTCO GAS #0422,-38.96,Debit,Vehicle Services,fake_creditcard2,2025-07,2025
+2025-07-14,ATT*BILL PAYMENT 800-288-2020 TX,-118.87,Debit,Services,fake_creditcard2,2025-07,2025
+2025-07-21,CITY PARKING METER,-7.88,Debit,Transportation,fake_creditcard2,2025-07,2025
+2025-07-28,COSTCO GAS #0422,-35.33,Debit,Vehicle Services,fake_creditcard2,2025-07,2025
+2025-08-04,COSTCO GAS #0422,-55.49,Debit,Vehicle Services,fake_creditcard2,2025-08,2025
+2025-08-11,COSTCO GAS #0422,-47.78,Debit,Vehicle Services,fake_creditcard2,2025-08,2025
+2025-08-18,CITY PARKING METER,-16.62,Debit,Transportation,fake_creditcard2,2025-08,2025
+2025-08-25,COSTCO GAS #0422,-61.19,Debit,Vehicle Services,fake_creditcard2,2025-08,2025
+2025-09-01,ATT*BILL PAYMENT 800-288-2020 TX,-109.56,Debit,Services,fake_creditcard2,2025-09,2025
+2025-09-15,COSTCO GAS #0422,-30.57,Debit,Vehicle Services,fake_creditcard2,2025-09,2025
+2025-09-22,ATT*BILL PAYMENT 800-288-2020 TX,-95.9,Debit,Services,fake_creditcard2,2025-09,2025
+2025-09-29,COSTCO GAS #0422,-46.99,Debit,Vehicle Services,fake_creditcard2,2025-09,2025
+2025-10-20,CITY PARKING METER,-24.11,Debit,Transportation,fake_creditcard2,2025-10,2025
+2025-11-03,COSTCO GAS #0422,-66.62,Debit,Vehicle Services,fake_creditcard2,2025-11,2025
+2025-11-10,COSTCO GAS #0422,-49.98,Debit,Vehicle Services,fake_creditcard2,2025-11,2025
+2025-11-17,CITY PARKING METER,-7.12,Debit,Transportation,fake_creditcard2,2025-11,2025
+2025-11-24,COSTCO GAS #0422,-43.86,Debit,Vehicle Services,fake_creditcard2,2025-11,2025
+2025-12-01,ATT*BILL PAYMENT 800-288-2020 TX,-103.84,Debit,Services,fake_creditcard2,2025-12,2025
+2025-12-15,ATT*BILL PAYMENT 800-288-2020 TX,-112.17,Debit,Services,fake_creditcard2,2025-12,2025
+2025-12-22,CITY PARKING METER,-20.7,Debit,Transportation,fake_creditcard2,2025-12,2025
+2025-12-29,COSTCO GAS #0422,-29.91,Debit,Vehicle Services,fake_creditcard2,2025-12,2025

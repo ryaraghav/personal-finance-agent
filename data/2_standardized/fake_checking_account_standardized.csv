@@ -1,0 +1,330 @@
+date,description,amount,type,category,source,month,year
+2024-01-01,Opening Balance,1973.0,Credit,Initial,fake_checking_account,2024-01,2024
+2024-01-01,Rent Payment – Property Mgmt,-2331.4,Debit,Housing,fake_checking_account,2024-01,2024
+2024-01-05,ACH Credit ACME CORP – PAYROLL,3350.28,Credit,Payroll,fake_checking_account,2024-01,2024
+2024-01-08,Comcast Internet Service,-89.2,Debit,Utilities,fake_checking_account,2024-01,2024
+2024-01-08,Starbucks Store,-7.86,Debit,Food & Drink,fake_checking_account,2024-01,2024
+2024-01-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-01,2024
+2024-01-13,AT&T Wireless Payment,-98.27,Debit,Utilities,fake_checking_account,2024-01,2024
+2024-01-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-01,2024
+2024-01-19,ACH Credit ACME CORP – PAYROLL,3254.05,Credit,Payroll,fake_checking_account,2024-01,2024
+2024-01-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-01,2024
+2024-01-21,Citibank Card Payment,-13.13,Debit,Credit Card Payment,fake_checking_account,2024-01,2024
+2024-01-23,Electric Company Bill,-155.22,Debit,Utilities,fake_checking_account,2024-01,2024
+2024-02-01,Rent Payment – Property Mgmt,-2384.21,Debit,Housing,fake_checking_account,2024-02,2024
+2024-02-02,ACH Credit ACME CORP – PAYROLL,3449.72,Credit,Payroll,fake_checking_account,2024-02,2024
+2024-02-02,Target Store,-96.29,Debit,Shopping,fake_checking_account,2024-02,2024
+2024-02-08,Citibank Card Payment,-115.73,Debit,Credit Card Payment,fake_checking_account,2024-02,2024
+2024-02-08,Comcast Internet Service,-76.24,Debit,Utilities,fake_checking_account,2024-02,2024
+2024-02-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-02,2024
+2024-02-13,AT&T Wireless Payment,-93.41,Debit,Utilities,fake_checking_account,2024-02,2024
+2024-02-14,Amazon Marketplace,-90.83,Debit,Shopping,fake_checking_account,2024-02,2024
+2024-02-16,ACH Credit ACME CORP – PAYROLL,3235.05,Credit,Payroll,fake_checking_account,2024-02,2024
+2024-02-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-02,2024
+2024-02-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-02,2024
+2024-02-21,Chase Sapphire Payment,-362.96,Debit,Credit Card Payment,fake_checking_account,2024-02,2024
+2024-02-23,Electric Company Bill,-146.25,Debit,Utilities,fake_checking_account,2024-02,2024
+2024-02-24,Citibank Card Payment,-85.29,Debit,Credit Card Payment,fake_checking_account,2024-02,2024
+2024-02-25,Citibank Card Payment,-60.74,Debit,Credit Card Payment,fake_checking_account,2024-02,2024
+2024-02-25,DoorDash,-24.39,Debit,Food & Drink,fake_checking_account,2024-02,2024
+2024-02-29,Target Store,-74.88,Debit,Shopping,fake_checking_account,2024-02,2024
+2024-03-01,ACH Credit ACME CORP – PAYROLL,3378.31,Credit,Payroll,fake_checking_account,2024-03,2024
+2024-03-01,Rent Payment – Property Mgmt,-2298.09,Debit,Housing,fake_checking_account,2024-03,2024
+2024-03-07,Citibank Card Payment,-68.95,Debit,Credit Card Payment,fake_checking_account,2024-03,2024
+2024-03-08,Comcast Internet Service,-85.38,Debit,Utilities,fake_checking_account,2024-03,2024
+2024-03-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-03,2024
+2024-03-13,AT&T Wireless Payment,-92.71,Debit,Utilities,fake_checking_account,2024-03,2024
+2024-03-15,ACH Credit ACME CORP – PAYROLL,3239.1,Credit,Payroll,fake_checking_account,2024-03,2024
+2024-03-15,CVS Pharmacy,-22.61,Debit,Health,fake_checking_account,2024-03,2024
+2024-03-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-03,2024
+2024-03-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-03,2024
+2024-03-20,Citibank Card Payment,-22.9,Debit,Credit Card Payment,fake_checking_account,2024-03,2024
+2024-03-20,DoorDash,-54.16,Debit,Food & Drink,fake_checking_account,2024-03,2024
+2024-03-21,Chase Sapphire Payment,-825.43,Debit,Credit Card Payment,fake_checking_account,2024-03,2024
+2024-03-22,Citibank Card Payment,-37.99,Debit,Credit Card Payment,fake_checking_account,2024-03,2024
+2024-03-23,Electric Company Bill,-83.53,Debit,Utilities,fake_checking_account,2024-03,2024
+2024-03-29,ACH Credit ACME CORP – PAYROLL,3481.5,Credit,Payroll,fake_checking_account,2024-03,2024
+2024-04-01,Rent Payment – Property Mgmt,-2314.99,Debit,Housing,fake_checking_account,2024-04,2024
+2024-04-05,Citibank Card Payment,-28.94,Debit,Credit Card Payment,fake_checking_account,2024-04,2024
+2024-04-08,Comcast Internet Service,-90.51,Debit,Utilities,fake_checking_account,2024-04,2024
+2024-04-11,Target Store,-75.41,Debit,Shopping,fake_checking_account,2024-04,2024
+2024-04-12,ACH Credit ACME CORP – PAYROLL,3115.77,Credit,Payroll,fake_checking_account,2024-04,2024
+2024-04-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-04,2024
+2024-04-13,AT&T Wireless Payment,-102.23,Debit,Utilities,fake_checking_account,2024-04,2024
+2024-04-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-04,2024
+2024-04-17,CVS Pharmacy,-27.4,Debit,Health,fake_checking_account,2024-04,2024
+2024-04-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-04,2024
+2024-04-21,Chase Sapphire Payment,-787.38,Debit,Credit Card Payment,fake_checking_account,2024-04,2024
+2024-04-21,Citibank Card Payment,-25.54,Debit,Credit Card Payment,fake_checking_account,2024-04,2024
+2024-04-23,Electric Company Bill,-123.13,Debit,Utilities,fake_checking_account,2024-04,2024
+2024-04-24,Citibank Card Payment,-42.75,Debit,Credit Card Payment,fake_checking_account,2024-04,2024
+2024-04-26,ACH Credit ACME CORP – PAYROLL,3425.25,Credit,Payroll,fake_checking_account,2024-04,2024
+2024-04-27,Target Store,-111.11,Debit,Shopping,fake_checking_account,2024-04,2024
+2024-05-01,Rent Payment – Property Mgmt,-2380.44,Debit,Housing,fake_checking_account,2024-05,2024
+2024-05-06,Trader Joe’s,-71.09,Debit,Groceries,fake_checking_account,2024-05,2024
+2024-05-08,Comcast Internet Service,-68.74,Debit,Utilities,fake_checking_account,2024-05,2024
+2024-05-09,Citibank Card Payment,-107.99,Debit,Credit Card Payment,fake_checking_account,2024-05,2024
+2024-05-10,ACH Credit ACME CORP – PAYROLL,3239.82,Credit,Payroll,fake_checking_account,2024-05,2024
+2024-05-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-05,2024
+2024-05-13,AT&T Wireless Payment,-104.2,Debit,Utilities,fake_checking_account,2024-05,2024
+2024-05-13,Amazon Marketplace,-104.04,Debit,Shopping,fake_checking_account,2024-05,2024
+2024-05-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-05,2024
+2024-05-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-05,2024
+2024-05-21,Chase Sapphire Payment,-812.72,Debit,Credit Card Payment,fake_checking_account,2024-05,2024
+2024-05-23,Electric Company Bill,-128.19,Debit,Utilities,fake_checking_account,2024-05,2024
+2024-05-24,ACH Credit ACME CORP – PAYROLL,3531.1,Credit,Payroll,fake_checking_account,2024-05,2024
+2024-05-24,Citibank Card Payment,-68.61,Debit,Credit Card Payment,fake_checking_account,2024-05,2024
+2024-06-01,Rent Payment – Property Mgmt,-2265.88,Debit,Housing,fake_checking_account,2024-06,2024
+2024-06-05,Amazon Marketplace,-93.83,Debit,Shopping,fake_checking_account,2024-06,2024
+2024-06-06,Citibank Card Payment,-68.62,Debit,Credit Card Payment,fake_checking_account,2024-06,2024
+2024-06-07,ACH Credit ACME CORP – PAYROLL,3158.83,Credit,Payroll,fake_checking_account,2024-06,2024
+2024-06-08,Citibank Card Payment,-50.5,Debit,Credit Card Payment,fake_checking_account,2024-06,2024
+2024-06-08,Comcast Internet Service,-78.74,Debit,Utilities,fake_checking_account,2024-06,2024
+2024-06-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-06,2024
+2024-06-13,AT&T Wireless Payment,-100.19,Debit,Utilities,fake_checking_account,2024-06,2024
+2024-06-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-06,2024
+2024-06-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-06,2024
+2024-06-21,ACH Credit ACME CORP – PAYROLL,3494.13,Credit,Payroll,fake_checking_account,2024-06,2024
+2024-06-21,Chase Sapphire Payment,-1353.6,Debit,Credit Card Payment,fake_checking_account,2024-06,2024
+2024-06-23,Citibank Card Payment,-65.62,Debit,Credit Card Payment,fake_checking_account,2024-06,2024
+2024-06-23,Electric Company Bill,-143.99,Debit,Utilities,fake_checking_account,2024-06,2024
+2024-07-01,Amazon Marketplace,-108.66,Debit,Shopping,fake_checking_account,2024-07,2024
+2024-07-01,Rent Payment – Property Mgmt,-2284.31,Debit,Housing,fake_checking_account,2024-07,2024
+2024-07-05,ACH Credit ACME CORP – PAYROLL,3382.73,Credit,Payroll,fake_checking_account,2024-07,2024
+2024-07-05,Citibank Card Payment,-26.75,Debit,Credit Card Payment,fake_checking_account,2024-07,2024
+2024-07-06,Citibank Card Payment,-33.36,Debit,Credit Card Payment,fake_checking_account,2024-07,2024
+2024-07-08,Comcast Internet Service,-72.2,Debit,Utilities,fake_checking_account,2024-07,2024
+2024-07-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-07,2024
+2024-07-13,AT&T Wireless Payment,-96.34,Debit,Utilities,fake_checking_account,2024-07,2024
+2024-07-13,Amazon Marketplace,-84.13,Debit,Shopping,fake_checking_account,2024-07,2024
+2024-07-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-07,2024
+2024-07-19,ACH Credit ACME CORP – PAYROLL,3343.66,Credit,Payroll,fake_checking_account,2024-07,2024
+2024-07-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-07,2024
+2024-07-20,Citibank Card Payment,-189.88,Debit,Credit Card Payment,fake_checking_account,2024-07,2024
+2024-07-21,Chase Sapphire Payment,-321.23,Debit,Credit Card Payment,fake_checking_account,2024-07,2024
+2024-07-23,Electric Company Bill,-162.97,Debit,Utilities,fake_checking_account,2024-07,2024
+2024-07-23,Target Store,-56.08,Debit,Shopping,fake_checking_account,2024-07,2024
+2024-08-01,Rent Payment – Property Mgmt,-2275.46,Debit,Housing,fake_checking_account,2024-08,2024
+2024-08-02,ACH Credit ACME CORP – PAYROLL,3370.55,Credit,Payroll,fake_checking_account,2024-08,2024
+2024-08-06,Citibank Card Payment,-18.0,Debit,Credit Card Payment,fake_checking_account,2024-08,2024
+2024-08-08,Comcast Internet Service,-84.03,Debit,Utilities,fake_checking_account,2024-08,2024
+2024-08-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-08,2024
+2024-08-13,AT&T Wireless Payment,-90.59,Debit,Utilities,fake_checking_account,2024-08,2024
+2024-08-16,ACH Credit ACME CORP – PAYROLL,3440.75,Credit,Payroll,fake_checking_account,2024-08,2024
+2024-08-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-08,2024
+2024-08-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-08,2024
+2024-08-21,Chase Sapphire Payment,-429.6,Debit,Credit Card Payment,fake_checking_account,2024-08,2024
+2024-08-22,Citibank Card Payment,-90.94,Debit,Credit Card Payment,fake_checking_account,2024-08,2024
+2024-08-23,Electric Company Bill,-196.75,Debit,Utilities,fake_checking_account,2024-08,2024
+2024-08-30,ACH Credit ACME CORP – PAYROLL,2972.58,Credit,Payroll,fake_checking_account,2024-08,2024
+2024-09-01,Rent Payment – Property Mgmt,-2230.59,Debit,Housing,fake_checking_account,2024-09,2024
+2024-09-08,Comcast Internet Service,-78.98,Debit,Utilities,fake_checking_account,2024-09,2024
+2024-09-10,Citibank Card Payment,-98.4,Debit,Credit Card Payment,fake_checking_account,2024-09,2024
+2024-09-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-09,2024
+2024-09-13,ACH Credit ACME CORP – PAYROLL,3347.62,Credit,Payroll,fake_checking_account,2024-09,2024
+2024-09-13,AT&T Wireless Payment,-100.68,Debit,Utilities,fake_checking_account,2024-09,2024
+2024-09-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-09,2024
+2024-09-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-09,2024
+2024-09-21,Chase Sapphire Payment,-511.59,Debit,Credit Card Payment,fake_checking_account,2024-09,2024
+2024-09-23,Citibank Card Payment,-30.78,Debit,Credit Card Payment,fake_checking_account,2024-09,2024
+2024-09-23,Electric Company Bill,-141.22,Debit,Utilities,fake_checking_account,2024-09,2024
+2024-09-24,Citibank Card Payment,-57.03,Debit,Credit Card Payment,fake_checking_account,2024-09,2024
+2024-09-27,ACH Credit ACME CORP – PAYROLL,3450.2,Credit,Payroll,fake_checking_account,2024-09,2024
+2024-10-01,Rent Payment – Property Mgmt,-2355.06,Debit,Housing,fake_checking_account,2024-10,2024
+2024-10-06,Citibank Card Payment,-93.47,Debit,Credit Card Payment,fake_checking_account,2024-10,2024
+2024-10-07,Trader Joe’s,-53.07,Debit,Groceries,fake_checking_account,2024-10,2024
+2024-10-08,Citibank Card Payment,-55.32,Debit,Credit Card Payment,fake_checking_account,2024-10,2024
+2024-10-08,Comcast Internet Service,-83.86,Debit,Utilities,fake_checking_account,2024-10,2024
+2024-10-09,Whole Foods Market,-61.88,Debit,Groceries,fake_checking_account,2024-10,2024
+2024-10-11,ACH Credit ACME CORP – PAYROLL,3404.57,Credit,Payroll,fake_checking_account,2024-10,2024
+2024-10-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-10,2024
+2024-10-13,AT&T Wireless Payment,-101.98,Debit,Utilities,fake_checking_account,2024-10,2024
+2024-10-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-10,2024
+2024-10-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-10,2024
+2024-10-21,Chase Sapphire Payment,-1411.99,Debit,Credit Card Payment,fake_checking_account,2024-10,2024
+2024-10-22,Citibank Card Payment,-83.31,Debit,Credit Card Payment,fake_checking_account,2024-10,2024
+2024-10-23,Electric Company Bill,-118.74,Debit,Utilities,fake_checking_account,2024-10,2024
+2024-10-25,ACH Credit ACME CORP – PAYROLL,3166.99,Credit,Payroll,fake_checking_account,2024-10,2024
+2024-11-01,Rent Payment – Property Mgmt,-2130.98,Debit,Housing,fake_checking_account,2024-11,2024
+2024-11-08,ACH Credit ACME CORP – PAYROLL,3427.55,Credit,Payroll,fake_checking_account,2024-11,2024
+2024-11-08,Comcast Internet Service,-82.0,Debit,Utilities,fake_checking_account,2024-11,2024
+2024-11-09,Citibank Card Payment,-14.81,Debit,Credit Card Payment,fake_checking_account,2024-11,2024
+2024-11-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-11,2024
+2024-11-13,AT&T Wireless Payment,-87.58,Debit,Utilities,fake_checking_account,2024-11,2024
+2024-11-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-11,2024
+2024-11-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-11,2024
+2024-11-21,Chase Sapphire Payment,-256.02,Debit,Credit Card Payment,fake_checking_account,2024-11,2024
+2024-11-21,Citibank Card Payment,-113.21,Debit,Credit Card Payment,fake_checking_account,2024-11,2024
+2024-11-22,ACH Credit ACME CORP – PAYROLL,3317.73,Credit,Payroll,fake_checking_account,2024-11,2024
+2024-11-23,Electric Company Bill,-74.11,Debit,Utilities,fake_checking_account,2024-11,2024
+2024-11-25,Amazon Marketplace,-59.61,Debit,Shopping,fake_checking_account,2024-11,2024
+2024-12-01,Rent Payment – Property Mgmt,-2417.14,Debit,Housing,fake_checking_account,2024-12,2024
+2024-12-05,Citibank Card Payment,-48.43,Debit,Credit Card Payment,fake_checking_account,2024-12,2024
+2024-12-06,ACH Credit ACME CORP – PAYROLL,3602.36,Credit,Payroll,fake_checking_account,2024-12,2024
+2024-12-08,Comcast Internet Service,-89.39,Debit,Utilities,fake_checking_account,2024-12,2024
+2024-12-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2024-12,2024
+2024-12-13,AT&T Wireless Payment,-109.77,Debit,Utilities,fake_checking_account,2024-12,2024
+2024-12-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2024-12,2024
+2024-12-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2024-12,2024
+2024-12-20,ACH Credit ACME CORP – PAYROLL,3413.53,Credit,Payroll,fake_checking_account,2024-12,2024
+2024-12-20,Citibank Card Payment,-5.43,Debit,Credit Card Payment,fake_checking_account,2024-12,2024
+2024-12-21,Chase Sapphire Payment,-166.28,Debit,Credit Card Payment,fake_checking_account,2024-12,2024
+2024-12-23,Electric Company Bill,-131.44,Debit,Utilities,fake_checking_account,2024-12,2024
+2025-01-01,Rent Payment – Property Mgmt,-2412.75,Debit,Housing,fake_checking_account,2025-01,2025
+2025-01-03,ACH Credit ACME CORP – PAYROLL,3212.34,Credit,Payroll,fake_checking_account,2025-01,2025
+2025-01-05,Citibank Card Payment,-221.03,Debit,Credit Card Payment,fake_checking_account,2025-01,2025
+2025-01-08,Comcast Internet Service,-89.22,Debit,Utilities,fake_checking_account,2025-01,2025
+2025-01-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-01,2025
+2025-01-13,AT&T Wireless Payment,-92.32,Debit,Utilities,fake_checking_account,2025-01,2025
+2025-01-17,ACH Credit ACME CORP – PAYROLL,3121.68,Credit,Payroll,fake_checking_account,2025-01,2025
+2025-01-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-01,2025
+2025-01-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-01,2025
+2025-01-21,Chase Sapphire Payment,-1571.88,Debit,Credit Card Payment,fake_checking_account,2025-01,2025
+2025-01-23,Electric Company Bill,-105.76,Debit,Utilities,fake_checking_account,2025-01,2025
+2025-01-24,Citibank Card Payment,-54.67,Debit,Credit Card Payment,fake_checking_account,2025-01,2025
+2025-01-31,ACH Credit ACME CORP – PAYROLL,3418.39,Credit,Payroll,fake_checking_account,2025-01,2025
+2025-02-01,Rent Payment – Property Mgmt,-2196.21,Debit,Housing,fake_checking_account,2025-02,2025
+2025-02-06,Citibank Card Payment,-110.75,Debit,Credit Card Payment,fake_checking_account,2025-02,2025
+2025-02-08,Comcast Internet Service,-72.16,Debit,Utilities,fake_checking_account,2025-02,2025
+2025-02-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-02,2025
+2025-02-13,AT&T Wireless Payment,-104.09,Debit,Utilities,fake_checking_account,2025-02,2025
+2025-02-14,ACH Credit ACME CORP – PAYROLL,3221.65,Credit,Payroll,fake_checking_account,2025-02,2025
+2025-02-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-02,2025
+2025-02-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-02,2025
+2025-02-20,Citibank Card Payment,-92.9,Debit,Credit Card Payment,fake_checking_account,2025-02,2025
+2025-02-21,Chase Sapphire Payment,-708.71,Debit,Credit Card Payment,fake_checking_account,2025-02,2025
+2025-02-23,Electric Company Bill,-174.46,Debit,Utilities,fake_checking_account,2025-02,2025
+2025-02-28,ACH Credit ACME CORP – PAYROLL,3342.83,Credit,Payroll,fake_checking_account,2025-02,2025
+2025-03-01,Rent Payment – Property Mgmt,-2458.13,Debit,Housing,fake_checking_account,2025-03,2025
+2025-03-08,Citibank Card Payment,-79.09,Debit,Credit Card Payment,fake_checking_account,2025-03,2025
+2025-03-08,Comcast Internet Service,-80.91,Debit,Utilities,fake_checking_account,2025-03,2025
+2025-03-11,Citibank Card Payment,-51.24,Debit,Credit Card Payment,fake_checking_account,2025-03,2025
+2025-03-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-03,2025
+2025-03-13,AT&T Wireless Payment,-112.65,Debit,Utilities,fake_checking_account,2025-03,2025
+2025-03-14,ACH Credit ACME CORP – PAYROLL,3397.51,Credit,Payroll,fake_checking_account,2025-03,2025
+2025-03-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-03,2025
+2025-03-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-03,2025
+2025-03-21,Chase Sapphire Payment,-887.83,Debit,Credit Card Payment,fake_checking_account,2025-03,2025
+2025-03-22,Citibank Card Payment,-116.06,Debit,Credit Card Payment,fake_checking_account,2025-03,2025
+2025-03-23,Electric Company Bill,-165.41,Debit,Utilities,fake_checking_account,2025-03,2025
+2025-03-28,ACH Credit ACME CORP – PAYROLL,3517.01,Credit,Payroll,fake_checking_account,2025-03,2025
+2025-04-01,Rent Payment – Property Mgmt,-2384.84,Debit,Housing,fake_checking_account,2025-04,2025
+2025-04-07,Citibank Card Payment,-118.99,Debit,Credit Card Payment,fake_checking_account,2025-04,2025
+2025-04-08,Comcast Internet Service,-73.23,Debit,Utilities,fake_checking_account,2025-04,2025
+2025-04-11,ACH Credit ACME CORP – PAYROLL,3385.25,Credit,Payroll,fake_checking_account,2025-04,2025
+2025-04-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-04,2025
+2025-04-13,AT&T Wireless Payment,-92.2,Debit,Utilities,fake_checking_account,2025-04,2025
+2025-04-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-04,2025
+2025-04-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-04,2025
+2025-04-21,Chase Sapphire Payment,-485.45,Debit,Credit Card Payment,fake_checking_account,2025-04,2025
+2025-04-23,Electric Company Bill,-137.83,Debit,Utilities,fake_checking_account,2025-04,2025
+2025-04-24,Citibank Card Payment,-109.94,Debit,Credit Card Payment,fake_checking_account,2025-04,2025
+2025-04-25,ACH Credit ACME CORP – PAYROLL,3215.01,Credit,Payroll,fake_checking_account,2025-04,2025
+2025-05-01,Rent Payment – Property Mgmt,-2304.21,Debit,Housing,fake_checking_account,2025-05,2025
+2025-05-02,CVS Pharmacy,-29.13,Debit,Health,fake_checking_account,2025-05,2025
+2025-05-08,Citibank Card Payment,-164.59,Debit,Credit Card Payment,fake_checking_account,2025-05,2025
+2025-05-08,Comcast Internet Service,-77.24,Debit,Utilities,fake_checking_account,2025-05,2025
+2025-05-09,ACH Credit ACME CORP – PAYROLL,3180.63,Credit,Payroll,fake_checking_account,2025-05,2025
+2025-05-09,Starbucks Store,-7.86,Debit,Food & Drink,fake_checking_account,2025-05,2025
+2025-05-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-05,2025
+2025-05-13,AT&T Wireless Payment,-92.75,Debit,Utilities,fake_checking_account,2025-05,2025
+2025-05-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-05,2025
+2025-05-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-05,2025
+2025-05-21,Chase Sapphire Payment,-531.47,Debit,Credit Card Payment,fake_checking_account,2025-05,2025
+2025-05-23,ACH Credit ACME CORP – PAYROLL,3557.43,Credit,Payroll,fake_checking_account,2025-05,2025
+2025-05-23,Electric Company Bill,-146.7,Debit,Utilities,fake_checking_account,2025-05,2025
+2025-05-24,Citibank Card Payment,-162.74,Debit,Credit Card Payment,fake_checking_account,2025-05,2025
+2025-06-01,Rent Payment – Property Mgmt,-2384.16,Debit,Housing,fake_checking_account,2025-06,2025
+2025-06-06,ACH Credit ACME CORP – PAYROLL,3285.25,Credit,Payroll,fake_checking_account,2025-06,2025
+2025-06-07,Citibank Card Payment,-29.25,Debit,Credit Card Payment,fake_checking_account,2025-06,2025
+2025-06-08,Comcast Internet Service,-73.28,Debit,Utilities,fake_checking_account,2025-06,2025
+2025-06-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-06,2025
+2025-06-13,AT&T Wireless Payment,-99.07,Debit,Utilities,fake_checking_account,2025-06,2025
+2025-06-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-06,2025
+2025-06-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-06,2025
+2025-06-20,ACH Credit ACME CORP – PAYROLL,3253.05,Credit,Payroll,fake_checking_account,2025-06,2025
+2025-06-21,Chase Sapphire Payment,-1248.56,Debit,Credit Card Payment,fake_checking_account,2025-06,2025
+2025-06-23,Citibank Card Payment,-180.14,Debit,Credit Card Payment,fake_checking_account,2025-06,2025
+2025-06-23,Electric Company Bill,-162.05,Debit,Utilities,fake_checking_account,2025-06,2025
+2025-07-01,Rent Payment – Property Mgmt,-2365.56,Debit,Housing,fake_checking_account,2025-07,2025
+2025-07-04,ACH Credit ACME CORP – PAYROLL,3315.54,Credit,Payroll,fake_checking_account,2025-07,2025
+2025-07-08,Comcast Internet Service,-83.78,Debit,Utilities,fake_checking_account,2025-07,2025
+2025-07-09,Citibank Card Payment,-159.39,Debit,Credit Card Payment,fake_checking_account,2025-07,2025
+2025-07-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-07,2025
+2025-07-13,AT&T Wireless Payment,-93.32,Debit,Utilities,fake_checking_account,2025-07,2025
+2025-07-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-07,2025
+2025-07-18,ACH Credit ACME CORP – PAYROLL,3253.59,Credit,Payroll,fake_checking_account,2025-07,2025
+2025-07-18,Target Store,-104.04,Debit,Shopping,fake_checking_account,2025-07,2025
+2025-07-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-07,2025
+2025-07-21,Chase Sapphire Payment,-704.42,Debit,Credit Card Payment,fake_checking_account,2025-07,2025
+2025-07-21,Citibank Card Payment,-83.79,Debit,Credit Card Payment,fake_checking_account,2025-07,2025
+2025-07-22,Citibank Card Payment,-74.04,Debit,Credit Card Payment,fake_checking_account,2025-07,2025
+2025-07-23,Electric Company Bill,-129.71,Debit,Utilities,fake_checking_account,2025-07,2025
+2025-07-26,DoorDash,-46.77,Debit,Food & Drink,fake_checking_account,2025-07,2025
+2025-08-01,ACH Credit ACME CORP – PAYROLL,3083.26,Credit,Payroll,fake_checking_account,2025-08,2025
+2025-08-01,Rent Payment – Property Mgmt,-2232.07,Debit,Housing,fake_checking_account,2025-08,2025
+2025-08-04,Whole Foods Market,-98.55,Debit,Groceries,fake_checking_account,2025-08,2025
+2025-08-07,Citibank Card Payment,-43.21,Debit,Credit Card Payment,fake_checking_account,2025-08,2025
+2025-08-08,Comcast Internet Service,-82.31,Debit,Utilities,fake_checking_account,2025-08,2025
+2025-08-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-08,2025
+2025-08-13,AT&T Wireless Payment,-105.6,Debit,Utilities,fake_checking_account,2025-08,2025
+2025-08-15,ACH Credit ACME CORP – PAYROLL,3220.77,Credit,Payroll,fake_checking_account,2025-08,2025
+2025-08-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-08,2025
+2025-08-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-08,2025
+2025-08-21,Chase Sapphire Payment,-1402.7,Debit,Credit Card Payment,fake_checking_account,2025-08,2025
+2025-08-22,Citibank Card Payment,-103.27,Debit,Credit Card Payment,fake_checking_account,2025-08,2025
+2025-08-23,Electric Company Bill,-160.38,Debit,Utilities,fake_checking_account,2025-08,2025
+2025-08-29,ACH Credit ACME CORP – PAYROLL,3236.58,Credit,Payroll,fake_checking_account,2025-08,2025
+2025-09-01,Rent Payment – Property Mgmt,-2349.58,Debit,Housing,fake_checking_account,2025-09,2025
+2025-09-08,Comcast Internet Service,-76.72,Debit,Utilities,fake_checking_account,2025-09,2025
+2025-09-09,Citibank Card Payment,-77.81,Debit,Credit Card Payment,fake_checking_account,2025-09,2025
+2025-09-10,Uber Trip,-24.15,Debit,Transportation,fake_checking_account,2025-09,2025
+2025-09-12,ACH Credit ACME CORP – PAYROLL,3129.4,Credit,Payroll,fake_checking_account,2025-09,2025
+2025-09-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-09,2025
+2025-09-13,AT&T Wireless Payment,-102.78,Debit,Utilities,fake_checking_account,2025-09,2025
+2025-09-16,DoorDash,-43.08,Debit,Food & Drink,fake_checking_account,2025-09,2025
+2025-09-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-09,2025
+2025-09-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-09,2025
+2025-09-21,Chase Sapphire Payment,-1303.55,Debit,Credit Card Payment,fake_checking_account,2025-09,2025
+2025-09-23,Citibank Card Payment,-140.13,Debit,Credit Card Payment,fake_checking_account,2025-09,2025
+2025-09-23,Electric Company Bill,-119.79,Debit,Utilities,fake_checking_account,2025-09,2025
+2025-09-26,ACH Credit ACME CORP – PAYROLL,3514.62,Credit,Payroll,fake_checking_account,2025-09,2025
+2025-10-01,Rent Payment – Property Mgmt,-2281.41,Debit,Housing,fake_checking_account,2025-10,2025
+2025-10-04,CVS Pharmacy,-37.4,Debit,Health,fake_checking_account,2025-10,2025
+2025-10-08,Comcast Internet Service,-79.73,Debit,Utilities,fake_checking_account,2025-10,2025
+2025-10-10,ACH Credit ACME CORP – PAYROLL,3389.26,Credit,Payroll,fake_checking_account,2025-10,2025
+2025-10-10,Citibank Card Payment,-80.3,Debit,Credit Card Payment,fake_checking_account,2025-10,2025
+2025-10-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-10,2025
+2025-10-12,Citibank Card Payment,-62.59,Debit,Credit Card Payment,fake_checking_account,2025-10,2025
+2025-10-13,AT&T Wireless Payment,-100.25,Debit,Utilities,fake_checking_account,2025-10,2025
+2025-10-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-10,2025
+2025-10-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-10,2025
+2025-10-21,Chase Sapphire Payment,-368.87,Debit,Credit Card Payment,fake_checking_account,2025-10,2025
+2025-10-23,Electric Company Bill,-125.5,Debit,Utilities,fake_checking_account,2025-10,2025
+2025-10-24,ACH Credit ACME CORP – PAYROLL,3266.85,Credit,Payroll,fake_checking_account,2025-10,2025
+2025-11-01,Rent Payment – Property Mgmt,-2425.08,Debit,Housing,fake_checking_account,2025-11,2025
+2025-11-07,ACH Credit ACME CORP – PAYROLL,3113.17,Credit,Payroll,fake_checking_account,2025-11,2025
+2025-11-07,Citibank Card Payment,-24.11,Debit,Credit Card Payment,fake_checking_account,2025-11,2025
+2025-11-08,Comcast Internet Service,-81.13,Debit,Utilities,fake_checking_account,2025-11,2025
+2025-11-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-11,2025
+2025-11-13,AT&T Wireless Payment,-111.89,Debit,Utilities,fake_checking_account,2025-11,2025
+2025-11-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-11,2025
+2025-11-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-11,2025
+2025-11-21,ACH Credit ACME CORP – PAYROLL,3325.31,Credit,Payroll,fake_checking_account,2025-11,2025
+2025-11-21,Chase Sapphire Payment,-427.68,Debit,Credit Card Payment,fake_checking_account,2025-11,2025
+2025-11-23,Electric Company Bill,-176.75,Debit,Utilities,fake_checking_account,2025-11,2025
+2025-11-25,Citibank Card Payment,-56.53,Debit,Credit Card Payment,fake_checking_account,2025-11,2025
+2025-11-26,Citibank Card Payment,-60.07,Debit,Credit Card Payment,fake_checking_account,2025-11,2025
+2025-11-30,Whole Foods Market,-81.18,Debit,Groceries,fake_checking_account,2025-11,2025
+2025-12-01,Rent Payment – Property Mgmt,-2263.88,Debit,Housing,fake_checking_account,2025-12,2025
+2025-12-05,ACH Credit ACME CORP – PAYROLL,3354.15,Credit,Payroll,fake_checking_account,2025-12,2025
+2025-12-08,Citibank Card Payment,-57.56,Debit,Credit Card Payment,fake_checking_account,2025-12,2025
+2025-12-08,Comcast Internet Service,-76.86,Debit,Utilities,fake_checking_account,2025-12,2025
+2025-12-12,ACH Debit Netflix Subscription,-15.99,Debit,Entertainment,fake_checking_account,2025-12,2025
+2025-12-13,AT&T Wireless Payment,-97.78,Debit,Utilities,fake_checking_account,2025-12,2025
+2025-12-17,ACH Debit Spotify,-10.99,Debit,Entertainment,fake_checking_account,2025-12,2025
+2025-12-19,ACH Credit ACME CORP – PAYROLL,3359.43,Credit,Payroll,fake_checking_account,2025-12,2025
+2025-12-19,Apple iCloud Storage,-2.99,Debit,Utilities,fake_checking_account,2025-12,2025
+2025-12-20,Citibank Card Payment,-223.16,Debit,Credit Card Payment,fake_checking_account,2025-12,2025
+2025-12-21,Chase Sapphire Payment,-465.33,Debit,Credit Card Payment,fake_checking_account,2025-12,2025
+2025-12-23,Electric Company Bill,-130.14,Debit,Utilities,fake_checking_account,2025-12,2025

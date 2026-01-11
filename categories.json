@@ -1,0 +1,217 @@
+{
+    "categories": [
+      "Income",
+      "Transfers",
+      "Bill Payments",
+      "Professional Services",
+      "Software Subscriptions",
+      "Fitness",
+      "Groceries",
+      "Dining",
+      "Transportation",
+      "Entertainment",
+      "Education",
+      "Utilities",
+      "Healthcare",
+      "Shopping",
+      "Travel",
+      "Gifts",
+      "Donations",
+      "Investments",
+      "Refunds",
+      "Fees",
+      "Other"
+    ],
+    "subcategories": {
+      "Transportation": [
+        "Gas/Fuel",
+        "Rideshare",
+        "Parking",
+        "Car Insurance",
+        "Car Maintenance",
+        "Public Transit",
+        "Tolls",
+        "Other Transportation"
+      ],
+      "Utilities": [
+        "Electricity/Gas (PG&E)",
+        "Water/Sewer",
+        "Internet/Cable",
+        "Phone/Mobile",
+        "Garbage/Waste",
+        "Other Utilities"
+      ],
+      "Dining": [
+        "Restaurants",
+        "Fast Food/Casual",
+        "Coffee Shops/Cafes",
+        "Bakery/Desserts",
+        "Food Delivery",
+        "Bars/Nightlife",
+        "Other Dining"
+      ],
+      "Shopping": [
+        "Electronics",
+        "Clothing/Apparel",
+        "Home/Furniture",
+        "Pharmacy/Personal Care",
+        "Online Shopping",
+        "Sporting Goods",
+        "Liquor/Wine",
+        "Books/Stationery",
+        "Other Shopping"
+      ],
+      "Groceries": [
+        "Supermarket",
+        "Specialty/Ethnic Groceries",
+        "Warehouse Club (Costco)",
+        "Organic/Natural Foods",
+        "Other Groceries"
+      ],
+      "Healthcare": [
+        "Pharmacy",
+        "Doctor/Medical",
+        "Dental",
+        "Vision/Optometry",
+        "Hospital",
+        "Medical Supplies",
+        "Other Healthcare"
+      ],
+      "Entertainment": [
+        "Movies/Theater",
+        "Museums/Attractions",
+        "Streaming Services",
+        "Sports/Activities",
+        "Nightlife",
+        "Parks/Recreation",
+        "Other Entertainment"
+      ],
+      "Education": [
+        "Tuition/School Fees",
+        "School Supplies",
+        "Books/Materials",
+        "Extracurricular Activities",
+        "Other Education"
+      ],
+      "Fitness": [
+        "Gym Membership",
+        "Sports Classes",
+        "Dance/Movement",
+        "Swimming",
+        "Recreation Programs",
+        "Other Fitness"
+      ],
+      "Software Subscriptions": [
+        "Productivity Software",
+        "Cloud Storage",
+        "Streaming (Video)",
+        "Streaming (Music)",
+        "Professional Tools",
+        "Other Subscriptions"
+      ],
+      "Travel": [
+        "Airfare",
+        "Hotels/Lodging",
+        "Car Rental",
+        "Travel Activities",
+        "Other Travel"
+      ]
+    },
+    "examples": {
+      "Income": ["PAYROLL", "salary", "wages", "bonus", "reimbursement"],
+      "Transfers": ["Venmo", "Zelle", "bank transfer", "external transfer", "Wealthfront transfer"],
+      "Bill Payments": ["credit card autopay", "loan payment", "debt payment", "AUTOPAY"],
+      "Professional Services": ["legal fees", "consulting"],
+      "Software Subscriptions": ["Netflix", "Spotify", "ChatGPT", "Microsoft", "Claude", "Cursor"],
+      "Fitness": ["gym", "yoga", "sports"],
+      "Groceries": ["Whole Foods", "Safeway", "Trader Joe's", "Costco"],
+      "Dining": ["restaurant", "cafe", "Starbucks", "Doordash"],
+      "Transportation": ["Uber", "Lyft", "gas", "parking", "transit"],
+      "Utilities": ["PG&E", "AT&T", "internet", "phone", "electric"],
+      "Education": ["tuition", "school", "courses"],
+      "Refunds": ["refund", "return", "reversal", "credit"],
+      "Fees": ["bank fee", "service charge", "overdraft"]
+    },
+    "subcategory_examples": {
+      "Transportation": {
+        "Gas/Fuel": ["Chevron", "Shell", "Costco Gas", "Olympian Gas", "Arco", "gas station"],
+        "Rideshare": ["Uber", "Lyft"],
+        "Parking": ["parking meter", "parking garage", "City parking", "San Bruno Parking"],
+        "Car Insurance": ["Geico", "State Farm", "Progressive", "car insurance"],
+        "Car Maintenance": ["oil change", "tire", "auto repair", "car wash"],
+        "Public Transit": ["BART", "Muni", "Clipper", "metro", "bus", "train"],
+        "Tolls": ["FasTrak", "toll", "bridge toll"]
+      },
+      "Utilities": {
+        "Electricity/Gas (PG&E)": ["PG&E", "PGANDE", "Pacific Gas Electric"],
+        "Water/Sewer": ["water district", "water utility", "City water"],
+        "Internet/Cable": ["Comcast", "AT&T internet", "Xfinity"],
+        "Phone/Mobile": ["AT&T", "Verizon", "T-Mobile", "Mint Mobile", "Vesta"],
+        "Garbage/Waste": ["Scavenger", "waste management", "garbage", "recycling"]
+      },
+      "Dining": {
+        "Restaurants": ["sit-down restaurant", "Rasoi", "Madras Cafe", "Chicos Pizza"],
+        "Fast Food/Casual": ["Chipotle", "fast food", "casual dining"],
+        "Coffee Shops/Cafes": ["Starbucks", "Philz Coffee", "Blue Bottle", "Bagel Street Cafe"],
+        "Bakery/Desserts": ["Paris Baguette", "Salt & Straw", "bakery", "ice cream"],
+        "Food Delivery": ["DoorDash", "Uber Eats", "delivery"],
+        "Bars/Nightlife": ["bar", "brewery", "Bourbon & Branch"]
+      },
+      "Shopping": {
+        "Electronics": ["Apple", "Best Buy", "electronics"],
+        "Clothing/Apparel": ["clothing store", "apparel", "Warby Parker"],
+        "Home/Furniture": ["Target", "Home Depot", "IKEA"],
+        "Pharmacy/Personal Care": ["Walgreens", "CVS", "personal care"],
+        "Online Shopping": ["Amazon", "AliExpress", "online retailer"],
+        "Sporting Goods": ["Dick's Sporting Goods", "sports equipment"],
+        "Liquor/Wine": ["Liquor Land", "Beverages & More", "wine shop"],
+        "Books/Stationery": ["bookstore", "office supplies", "USPS"]
+      },
+      "Groceries": {
+        "Supermarket": ["Safeway", "Lucky", "general supermarket"],
+        "Specialty/Ethnic Groceries": ["Madras Groceries", "India Cash & Carry", "Neelam Pacific"],
+        "Warehouse Club (Costco)": ["Costco Whse", "warehouse club"],
+        "Organic/Natural Foods": ["Whole Foods", "Trader Joe's", "Mollie Stones", "Wholesome"]
+      },
+      "Healthcare": {
+        "Pharmacy": ["Walgreens", "CVS Pharmacy", "pharmacy"],
+        "Doctor/Medical": ["Sutter Health", "PAMF", "medical clinic", "physician"],
+        "Dental": ["dentist", "dental"],
+        "Vision/Optometry": ["LV Optometry", "eye doctor", "glasses"],
+        "Hospital": ["hospital", "urgent care"],
+        "Medical Supplies": ["medical supplies", "Amazon Onemed"]
+      },
+      "Entertainment": {
+        "Movies/Theater": ["movie theater", "cinema", "Golden Gate Theatre", "Broadway"],
+        "Museums/Attractions": ["San Francisco Zoo", "Hiller Aviation Museum", "museum"],
+        "Streaming Services": ["Netflix", "Disney Plus", "The Athletic"],
+        "Sports/Activities": ["Sky Zone", "recreation"],
+        "Parks/Recreation": ["San Mateo Parks"]
+      },
+      "Education": {
+        "Tuition/School Fees": ["Happy Hall School", "Stratford School", "tuition"],
+        "School Supplies": ["Scholastic Book Fairs", "school supplies"],
+        "Extracurricular Activities": ["La Petite Baleen", "swim school"]
+      },
+      "Fitness": {
+        "Gym Membership": ["Fitness 19", "gym membership"],
+        "Sports Classes": ["Big Kicks", "sports class"],
+        "Dance/Movement": ["West Coast Dance", "dance"],
+        "Swimming": ["swim lessons", "aquatics"],
+        "Recreation Programs": ["City recreation", "Parks & Rec"]
+      },
+      "Software Subscriptions": {
+        "Productivity Software": ["Microsoft", "Adobe"],
+        "Cloud Storage": ["Dropbox", "iCloud"],
+        "Streaming (Video)": ["Netflix", "Disney Plus", "streaming"],
+        "Streaming (Music)": ["Spotify", "Apple Music"],
+        "Professional Tools": ["ChatGPT", "Claude", "Cursor"]
+      },
+      "Travel": {
+        "Airfare": ["airline", "flight"],
+        "Hotels/Lodging": ["hotel", "Airbnb", "lodging"],
+        "Car Rental": ["rental car", "Hertz"],
+        "Travel Activities": ["tour", "attraction"]
+      }
+    }
+  }

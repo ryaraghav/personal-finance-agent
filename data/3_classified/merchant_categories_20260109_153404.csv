@@ -1,0 +1,89 @@
+merchant,category,subcategory,confidence,reasoning,transaction_count
+Citibank Card Payment,Bill Payments,,high,Credit card payment with regular debit pattern,57
+ACH Credit ACME CORP – PAYROLL,Income,,high,ACH Credit with PAYROLL designation and consistent positive amounts,52
+COSTCO GAS #0422,Transportation,Gas/Fuel,high,Costco Gas station with consistent fuel purchase amounts,39
+ACH Debit Spotify,Software Subscriptions,Streaming (Music),high,ACH Debit for Spotify music streaming service,24
+ACH Debit Netflix Subscription,Software Subscriptions,Streaming (Video),high,ACH Debit for Netflix video streaming subscription,24
+Rent Payment – Property Mgmt,Bill Payments,,high,Monthly rent payment to property management company,24
+Electric Company Bill,Utilities,Electricity/Gas (PG&E),high,Electric company utility bill payment,24
+Comcast Internet Service,Utilities,Internet/Cable,high,Comcast internet service provider payment,24
+AT&T Wireless Payment,Utilities,Phone/Mobile,high,AT&T wireless phone service payment,24
+Apple iCloud Storage,Software Subscriptions,Cloud Storage,high,Apple iCloud storage subscription service,24
+Chase Sapphire Payment,Bill Payments,,high,Chase Sapphire credit card payment with regular debit pattern,23
+ATT*BILL PAYMENT 800-288-2020 TX,Utilities,Phone/Mobile,high,AT&T bill payment for phone/mobile service,21
+CITY PARKING METER,Transportation,Parking,high,City parking meter payments,20
+CHIPOTLE,Dining,Fast Food/Casual,high,Chipotle fast casual restaurant chain,16
+GOOGLE *YOUTUBE,Software Subscriptions,Streaming (Video),high,YouTube premium subscription service,15
+MUSEUM,Entertainment,Museums/Attractions,high,Museum admission fees and attractions,14
+CVS/PHARMACY,Healthcare,Pharmacy,high,CVS pharmacy purchases for healthcare items,14
+DOORDASH,Dining,Food Delivery,high,DoorDash food delivery service,13
+AMC THEATRES,Entertainment,Movies/Theater,high,AMC movie theater tickets,13
+NIKE.COM,Shopping,Clothing/Apparel,high,Nike online clothing and athletic apparel,12
+SQ *THE BOUNCE PLACE,Entertainment,Sports/Activities,high,The Bounce Place recreational activity center,11
+REI,Shopping,Sporting Goods,high,REI outdoor sporting goods and equipment,11
+BARNES & NOBLE,Shopping,Books/Stationery,high,Barnes & Noble bookstore purchases,10
+UNITED AIRLINES,Travel,Airfare,high,United Airlines flight bookings,10
+APPLE.COM/BILL,Shopping,Electronics,high,Apple.com purchases for electronics and accessories,9
+LULULEMON,Shopping,Clothing/Apparel,high,Lululemon athletic and casual clothing,9
+STARBUCKS,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,9
+AIRBNB,Travel,Hotels/Lodging,high,Airbnb accommodation bookings,9
+CONCERT VENUE,Entertainment,Other Entertainment,high,Concert venue tickets and entertainment,8
+SPOTIFY,Software Subscriptions,Streaming (Music),high,Spotify music streaming subscription,8
+INSTACART,Groceries,Other Groceries,high,Instacart grocery delivery service,7
+SQ *LA TAQUERIA,Dining,Restaurants,high,La Taqueria restaurant dining,7
+SWEETGREEN,Dining,Fast Food/Casual,high,Sweetgreen fast casual healthy food chain,7
+WALGREENS,Healthcare,Pharmacy,high,Walgreens pharmacy and personal care items,7
+BALSMIQ,Software Subscriptions,Professional Tools,high,Balsamiq professional design/mockup software,7
+NETFLIX.COM,Software Subscriptions,Streaming (Video),high,Netflix video streaming subscription,7
+Target Store,Shopping,Home/Furniture,high,Target store general merchandise and home goods,6
+Amazon Marketplace,Shopping,Online Shopping,high,Amazon Marketplace online purchases,6
+CARD SERVICE FEE,Fees,,high,Card service fee charges,5
+TICKETMASTER,Entertainment,Other Entertainment,high,Ticketmaster event and entertainment tickets,5
+UBER TRIP,Transportation,Rideshare,high,Uber rideshare transportation service,4
+DoorDash,Dining,Food Delivery,high,DoorDash food delivery service,4
+GIFTS & DONATIONS,Gifts,,high,Gifts and donations category based on merchant name,4
+HOTEL,Travel,Hotels/Lodging,high,Hotel accommodation expenses,4
+CVS Pharmacy,Healthcare,Pharmacy,high,CVS Pharmacy healthcare and personal care items,4
+SEPHORA,Shopping,Pharmacy/Personal Care,high,Sephora beauty and personal care products,3
+REI RETURN,Shopping,Sporting Goods,high,REI return - keeping original category as sporting goods refund,3
+SP ALLBIRDS,Shopping,Clothing/Apparel,high,Allbirds footwear and apparel,3
+Whole Foods Market,Groceries,Organic/Natural Foods,high,Whole Foods Market organic and natural grocery store,3
+Starbucks Store,Dining,Coffee Shops/Cafes,high,Starbucks coffee shop purchases,2
+Trader Joe’s,Groceries,Organic/Natural Foods,high,Trader Joe's is a well-known grocery store specializing in natural/organic foods,2
+DOORDASH RETURN,Dining,Food Delivery,high,"DoorDash return should be categorized as original category (Food Delivery), not Refunds",2
+GIFTS & DONATIONS RETURN,Gifts,,high,"Gifts & Donations return should be categorized as original category (Gifts), not Refunds",1
+LYFT 1 RIDE 08-02,Transportation,Rideshare,high,Lyft is a rideshare service,1
+LYFT 1 RIDE 07-07,Transportation,Rideshare,high,Lyft is a rideshare service,1
+LULULEMON RETURN,Shopping,Clothing/Apparel,high,"Lululemon return should be categorized as original category (Clothing/Apparel), not Refunds",1
+HOTEL RETURN,Travel,Hotels/Lodging,high,"Hotel return should be categorized as original category (Hotels/Lodging), not Refunds",1
+SPOTIFY RETURN,Software Subscriptions,Streaming (Music),high,"Spotify return should be categorized as original category (Music Streaming), not Refunds",1
+GOOGLE *YOUTUBE RETURN,Software Subscriptions,Streaming (Video),high,"YouTube return should be categorized as original category (Video Streaming), not Refunds",1
+TARGET #218,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",1
+AMC THEATRES RETURN,Entertainment,Movies/Theater,high,"AMC Theatres return should be categorized as original category (Movies/Theater), not Refunds",1
+TARGET #15,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",1
+TARGET #209,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",1
+TRADER JOE'S #581,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,1
+TARGET #575,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",1
+TARGET #636,Shopping,Home/Furniture,high,"Target is a general retailer, categorized as Home/Furniture shopping",1
+AMAZON.COM RETURN,Shopping,Online Shopping,high,"Amazon return should be categorized as original category (Online Shopping), not Refunds",1
+TICKETMASTER RETURN,Entertainment,Movies/Theater,high,"Ticketmaster return should be categorized as original category (Entertainment), not Refunds",1
+LYFT 1 RIDE 12-02,Transportation,Rideshare,high,Lyft is a rideshare service,1
+WHOLE FOODS MARKET #680,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+TRADER JOE'S #218,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,1
+TRADER JOE'S #862,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,1
+Opening Balance,Other,,high,"Opening Balance is an account initialization, not a regular transaction category",1
+AMAZON.COM ORDER 926367,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,1
+AMAZON.COM ORDER 826307,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,1
+AMAZON.COM ORDER 586787,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,1
+Uber Trip,Transportation,Rideshare,high,Uber is a rideshare service,1
+AMAZON.COM ORDER 415198,Shopping,Online Shopping,high,Amazon.com purchases are online shopping transactions,1
+WHOLE FOODS MARKET #239,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #30,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+TRADER JOE'S #858,Groceries,Organic/Natural Foods,high,Trader Joe's is a grocery store specializing in natural/organic foods,1
+WHOLE FOODS MARKET #487,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #511,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #542,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #567,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #740,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+WHOLE FOODS MARKET #909,Groceries,Organic/Natural Foods,high,Whole Foods Market is a grocery store specializing in organic/natural foods,1
+LYFT 1 RIDE 12-16,Transportation,Rideshare,high,Lyft is a rideshare service,1

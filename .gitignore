@@ -1,13 +1,21 @@
-# Private data
-data/
+# Private data (user's real financial data)
+mock_data/
 analysis.ipynb
+analysis2.ipynb
 report.py
 test.ipynb
 monthly_finance_report.pdf
 monthly_finance_report.png
+recategorize.py
+
+# Encrypted volumes
+*.dmg
 
 # Environment variables
 .env
+
+# HTTP test files (may contain API keys)
+*.http
 
 # Python
 __pycache__/

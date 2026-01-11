@@ -1,0 +1,330 @@
+Account Number,Post Date,Check,Description,Debit,Credit,Category,Status,Balance
+*****1234,01/01/2024,,Opening Balance,,1973.00,Initial,Posted,1973.00
+*****1234,01/01/2024,,Rent Payment – Property Mgmt,2331.40,,Housing,Posted,-358.40
+*****1234,01/05/2024,,ACH Credit ACME CORP – PAYROLL,,3350.28,Payroll,Posted,2991.87
+*****1234,01/08/2024,,Comcast Internet Service,89.20,,Utilities,Posted,2902.67
+*****1234,01/08/2024,,Starbucks Store,7.86,,Food & Drink,Posted,2894.81
+*****1234,01/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,2878.82
+*****1234,01/13/2024,,AT&T Wireless Payment,98.27,,Utilities,Posted,2780.56
+*****1234,01/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,2769.57
+*****1234,01/19/2024,,ACH Credit ACME CORP – PAYROLL,,3254.05,Payroll,Posted,6023.62
+*****1234,01/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,6020.63
+*****1234,01/21/2024,,Citibank Card Payment,13.13,,Credit Card Payment,Posted,6007.50
+*****1234,01/23/2024,,Electric Company Bill,155.22,,Utilities,Posted,5852.28
+*****1234,02/01/2024,,Rent Payment – Property Mgmt,2384.21,,Housing,Posted,3468.07
+*****1234,02/02/2024,,ACH Credit ACME CORP – PAYROLL,,3449.72,Payroll,Posted,6917.79
+*****1234,02/02/2024,,Target Store,96.29,,Shopping,Posted,6821.50
+*****1234,02/08/2024,,Citibank Card Payment,115.73,,Credit Card Payment,Posted,6705.77
+*****1234,02/08/2024,,Comcast Internet Service,76.24,,Utilities,Posted,6629.54
+*****1234,02/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,6613.55
+*****1234,02/13/2024,,AT&T Wireless Payment,93.41,,Utilities,Posted,6520.14
+*****1234,02/14/2024,,Amazon Marketplace,90.83,,Shopping,Posted,6429.31
+*****1234,02/16/2024,,ACH Credit ACME CORP – PAYROLL,,3235.05,Payroll,Posted,9664.35
+*****1234,02/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,9653.36
+*****1234,02/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,9650.37
+*****1234,02/21/2024,,Chase Sapphire Payment,362.96,,Credit Card Payment,Posted,9287.41
+*****1234,02/23/2024,,Electric Company Bill,146.25,,Utilities,Posted,9141.16
+*****1234,02/24/2024,,Citibank Card Payment,85.29,,Credit Card Payment,Posted,9055.87
+*****1234,02/25/2024,,Citibank Card Payment,60.74,,Credit Card Payment,Posted,8995.13
+*****1234,02/25/2024,,DoorDash,24.39,,Food & Drink,Posted,8970.74
+*****1234,02/29/2024,,Target Store,74.88,,Shopping,Posted,8895.86
+*****1234,03/01/2024,,ACH Credit ACME CORP – PAYROLL,,3378.31,Payroll,Posted,12274.17
+*****1234,03/01/2024,,Rent Payment – Property Mgmt,2298.09,,Housing,Posted,9976.08
+*****1234,03/07/2024,,Citibank Card Payment,68.95,,Credit Card Payment,Posted,9907.13
+*****1234,03/08/2024,,Comcast Internet Service,85.38,,Utilities,Posted,9821.75
+*****1234,03/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,9805.76
+*****1234,03/13/2024,,AT&T Wireless Payment,92.71,,Utilities,Posted,9713.05
+*****1234,03/15/2024,,ACH Credit ACME CORP – PAYROLL,,3239.10,Payroll,Posted,12952.15
+*****1234,03/15/2024,,CVS Pharmacy,22.61,,Health,Posted,12929.54
+*****1234,03/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,12918.55
+*****1234,03/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,12915.56
+*****1234,03/20/2024,,Citibank Card Payment,22.90,,Credit Card Payment,Posted,12892.66
+*****1234,03/20/2024,,DoorDash,54.16,,Food & Drink,Posted,12838.50
+*****1234,03/21/2024,,Chase Sapphire Payment,825.43,,Credit Card Payment,Posted,12013.07
+*****1234,03/22/2024,,Citibank Card Payment,37.99,,Credit Card Payment,Posted,11975.08
+*****1234,03/23/2024,,Electric Company Bill,83.53,,Utilities,Posted,11891.55
+*****1234,03/29/2024,,ACH Credit ACME CORP – PAYROLL,,3481.50,Payroll,Posted,15373.05
+*****1234,04/01/2024,,Rent Payment – Property Mgmt,2314.99,,Housing,Posted,13058.06
+*****1234,04/05/2024,,Citibank Card Payment,28.94,,Credit Card Payment,Posted,13029.12
+*****1234,04/08/2024,,Comcast Internet Service,90.51,,Utilities,Posted,12938.61
+*****1234,04/11/2024,,Target Store,75.41,,Shopping,Posted,12863.20
+*****1234,04/12/2024,,ACH Credit ACME CORP – PAYROLL,,3115.77,Payroll,Posted,15978.97
+*****1234,04/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,15962.98
+*****1234,04/13/2024,,AT&T Wireless Payment,102.23,,Utilities,Posted,15860.75
+*****1234,04/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,15849.76
+*****1234,04/17/2024,,CVS Pharmacy,27.40,,Health,Posted,15822.36
+*****1234,04/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,15819.37
+*****1234,04/21/2024,,Chase Sapphire Payment,787.38,,Credit Card Payment,Posted,15031.99
+*****1234,04/21/2024,,Citibank Card Payment,25.54,,Credit Card Payment,Posted,15006.45
+*****1234,04/23/2024,,Electric Company Bill,123.13,,Utilities,Posted,14883.32
+*****1234,04/24/2024,,Citibank Card Payment,42.75,,Credit Card Payment,Posted,14840.57
+*****1234,04/26/2024,,ACH Credit ACME CORP – PAYROLL,,3425.25,Payroll,Posted,18265.82
+*****1234,04/27/2024,,Target Store,111.11,,Shopping,Posted,18154.71
+*****1234,05/01/2024,,Rent Payment – Property Mgmt,2380.44,,Housing,Posted,15774.28
+*****1234,05/06/2024,,Trader Joe’s,71.09,,Groceries,Posted,15703.19
+*****1234,05/08/2024,,Comcast Internet Service,68.74,,Utilities,Posted,15634.45
+*****1234,05/09/2024,,Citibank Card Payment,107.99,,Credit Card Payment,Posted,15526.46
+*****1234,05/10/2024,,ACH Credit ACME CORP – PAYROLL,,3239.82,Payroll,Posted,18766.28
+*****1234,05/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,18750.29
+*****1234,05/13/2024,,AT&T Wireless Payment,104.20,,Utilities,Posted,18646.09
+*****1234,05/13/2024,,Amazon Marketplace,104.04,,Shopping,Posted,18542.05
+*****1234,05/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,18531.06
+*****1234,05/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,18528.07
+*****1234,05/21/2024,,Chase Sapphire Payment,812.72,,Credit Card Payment,Posted,17715.35
+*****1234,05/23/2024,,Electric Company Bill,128.19,,Utilities,Posted,17587.16
+*****1234,05/24/2024,,ACH Credit ACME CORP – PAYROLL,,3531.10,Payroll,Posted,21118.26
+*****1234,05/24/2024,,Citibank Card Payment,68.61,,Credit Card Payment,Posted,21049.65
+*****1234,06/01/2024,,Rent Payment – Property Mgmt,2265.88,,Housing,Posted,18783.77
+*****1234,06/05/2024,,Amazon Marketplace,93.83,,Shopping,Posted,18689.94
+*****1234,06/06/2024,,Citibank Card Payment,68.62,,Credit Card Payment,Posted,18621.32
+*****1234,06/07/2024,,ACH Credit ACME CORP – PAYROLL,,3158.83,Payroll,Posted,21780.15
+*****1234,06/08/2024,,Citibank Card Payment,50.50,,Credit Card Payment,Posted,21729.65
+*****1234,06/08/2024,,Comcast Internet Service,78.74,,Utilities,Posted,21650.92
+*****1234,06/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,21634.93
+*****1234,06/13/2024,,AT&T Wireless Payment,100.19,,Utilities,Posted,21534.74
+*****1234,06/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,21523.75
+*****1234,06/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,21520.76
+*****1234,06/21/2024,,ACH Credit ACME CORP – PAYROLL,,3494.13,Payroll,Posted,25014.89
+*****1234,06/21/2024,,Chase Sapphire Payment,1353.60,,Credit Card Payment,Posted,23661.29
+*****1234,06/23/2024,,Citibank Card Payment,65.62,,Credit Card Payment,Posted,23595.67
+*****1234,06/23/2024,,Electric Company Bill,143.99,,Utilities,Posted,23451.68
+*****1234,07/01/2024,,Amazon Marketplace,108.66,,Shopping,Posted,23343.02
+*****1234,07/01/2024,,Rent Payment – Property Mgmt,2284.31,,Housing,Posted,21058.70
+*****1234,07/05/2024,,ACH Credit ACME CORP – PAYROLL,,3382.73,Payroll,Posted,24441.43
+*****1234,07/05/2024,,Citibank Card Payment,26.75,,Credit Card Payment,Posted,24414.68
+*****1234,07/06/2024,,Citibank Card Payment,33.36,,Credit Card Payment,Posted,24381.32
+*****1234,07/08/2024,,Comcast Internet Service,72.20,,Utilities,Posted,24309.12
+*****1234,07/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,24293.13
+*****1234,07/13/2024,,AT&T Wireless Payment,96.34,,Utilities,Posted,24196.78
+*****1234,07/13/2024,,Amazon Marketplace,84.13,,Shopping,Posted,24112.65
+*****1234,07/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,24101.66
+*****1234,07/19/2024,,ACH Credit ACME CORP – PAYROLL,,3343.66,Payroll,Posted,27445.33
+*****1234,07/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,27442.34
+*****1234,07/20/2024,,Citibank Card Payment,189.88,,Credit Card Payment,Posted,27252.46
+*****1234,07/21/2024,,Chase Sapphire Payment,321.23,,Credit Card Payment,Posted,26931.23
+*****1234,07/23/2024,,Electric Company Bill,162.97,,Utilities,Posted,26768.26
+*****1234,07/23/2024,,Target Store,56.08,,Shopping,Posted,26712.18
+*****1234,08/01/2024,,Rent Payment – Property Mgmt,2275.46,,Housing,Posted,24436.72
+*****1234,08/02/2024,,ACH Credit ACME CORP – PAYROLL,,3370.55,Payroll,Posted,27807.27
+*****1234,08/06/2024,,Citibank Card Payment,18.00,,Credit Card Payment,Posted,27789.27
+*****1234,08/08/2024,,Comcast Internet Service,84.03,,Utilities,Posted,27705.24
+*****1234,08/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,27689.25
+*****1234,08/13/2024,,AT&T Wireless Payment,90.59,,Utilities,Posted,27598.66
+*****1234,08/16/2024,,ACH Credit ACME CORP – PAYROLL,,3440.75,Payroll,Posted,31039.41
+*****1234,08/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,31028.42
+*****1234,08/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,31025.43
+*****1234,08/21/2024,,Chase Sapphire Payment,429.60,,Credit Card Payment,Posted,30595.83
+*****1234,08/22/2024,,Citibank Card Payment,90.94,,Credit Card Payment,Posted,30504.89
+*****1234,08/23/2024,,Electric Company Bill,196.75,,Utilities,Posted,30308.14
+*****1234,08/30/2024,,ACH Credit ACME CORP – PAYROLL,,2972.58,Payroll,Posted,33280.72
+*****1234,09/01/2024,,Rent Payment – Property Mgmt,2230.59,,Housing,Posted,31050.13
+*****1234,09/08/2024,,Comcast Internet Service,78.98,,Utilities,Posted,30971.14
+*****1234,09/10/2024,,Citibank Card Payment,98.40,,Credit Card Payment,Posted,30872.74
+*****1234,09/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,30856.75
+*****1234,09/13/2024,,ACH Credit ACME CORP – PAYROLL,,3347.62,Payroll,Posted,34204.37
+*****1234,09/13/2024,,AT&T Wireless Payment,100.68,,Utilities,Posted,34103.69
+*****1234,09/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,34092.70
+*****1234,09/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,34089.71
+*****1234,09/21/2024,,Chase Sapphire Payment,511.59,,Credit Card Payment,Posted,33578.12
+*****1234,09/23/2024,,Citibank Card Payment,30.78,,Credit Card Payment,Posted,33547.34
+*****1234,09/23/2024,,Electric Company Bill,141.22,,Utilities,Posted,33406.12
+*****1234,09/24/2024,,Citibank Card Payment,57.03,,Credit Card Payment,Posted,33349.09
+*****1234,09/27/2024,,ACH Credit ACME CORP – PAYROLL,,3450.20,Payroll,Posted,36799.29
+*****1234,10/01/2024,,Rent Payment – Property Mgmt,2355.06,,Housing,Posted,34444.23
+*****1234,10/06/2024,,Citibank Card Payment,93.47,,Credit Card Payment,Posted,34350.76
+*****1234,10/07/2024,,Trader Joe’s,53.07,,Groceries,Posted,34297.69
+*****1234,10/08/2024,,Citibank Card Payment,55.32,,Credit Card Payment,Posted,34242.37
+*****1234,10/08/2024,,Comcast Internet Service,83.86,,Utilities,Posted,34158.51
+*****1234,10/09/2024,,Whole Foods Market,61.88,,Groceries,Posted,34096.63
+*****1234,10/11/2024,,ACH Credit ACME CORP – PAYROLL,,3404.57,Payroll,Posted,37501.20
+*****1234,10/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,37485.21
+*****1234,10/13/2024,,AT&T Wireless Payment,101.98,,Utilities,Posted,37383.23
+*****1234,10/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,37372.24
+*****1234,10/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,37369.25
+*****1234,10/21/2024,,Chase Sapphire Payment,1411.99,,Credit Card Payment,Posted,35957.26
+*****1234,10/22/2024,,Citibank Card Payment,83.31,,Credit Card Payment,Posted,35873.95
+*****1234,10/23/2024,,Electric Company Bill,118.74,,Utilities,Posted,35755.21
+*****1234,10/25/2024,,ACH Credit ACME CORP – PAYROLL,,3166.99,Payroll,Posted,38922.19
+*****1234,11/01/2024,,Rent Payment – Property Mgmt,2130.98,,Housing,Posted,36791.22
+*****1234,11/08/2024,,ACH Credit ACME CORP – PAYROLL,,3427.55,Payroll,Posted,40218.77
+*****1234,11/08/2024,,Comcast Internet Service,82.00,,Utilities,Posted,40136.77
+*****1234,11/09/2024,,Citibank Card Payment,14.81,,Credit Card Payment,Posted,40121.96
+*****1234,11/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,40105.97
+*****1234,11/13/2024,,AT&T Wireless Payment,87.58,,Utilities,Posted,40018.39
+*****1234,11/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,40007.40
+*****1234,11/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,40004.41
+*****1234,11/21/2024,,Chase Sapphire Payment,256.02,,Credit Card Payment,Posted,39748.39
+*****1234,11/21/2024,,Citibank Card Payment,113.21,,Credit Card Payment,Posted,39635.18
+*****1234,11/22/2024,,ACH Credit ACME CORP – PAYROLL,,3317.73,Payroll,Posted,42952.91
+*****1234,11/23/2024,,Electric Company Bill,74.11,,Utilities,Posted,42878.80
+*****1234,11/25/2024,,Amazon Marketplace,59.61,,Shopping,Posted,42819.19
+*****1234,12/01/2024,,Rent Payment – Property Mgmt,2417.14,,Housing,Posted,40402.05
+*****1234,12/05/2024,,Citibank Card Payment,48.43,,Credit Card Payment,Posted,40353.62
+*****1234,12/06/2024,,ACH Credit ACME CORP – PAYROLL,,3602.36,Payroll,Posted,43955.98
+*****1234,12/08/2024,,Comcast Internet Service,89.39,,Utilities,Posted,43866.59
+*****1234,12/12/2024,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,43850.60
+*****1234,12/13/2024,,AT&T Wireless Payment,109.77,,Utilities,Posted,43740.84
+*****1234,12/17/2024,,ACH Debit Spotify,10.99,,Entertainment,Posted,43729.85
+*****1234,12/19/2024,,Apple iCloud Storage,2.99,,Utilities,Posted,43726.86
+*****1234,12/20/2024,,ACH Credit ACME CORP – PAYROLL,,3413.53,Payroll,Posted,47140.39
+*****1234,12/20/2024,,Citibank Card Payment,5.43,,Credit Card Payment,Posted,47134.96
+*****1234,12/21/2024,,Chase Sapphire Payment,166.28,,Credit Card Payment,Posted,46968.68
+*****1234,12/23/2024,,Electric Company Bill,131.44,,Utilities,Posted,46837.23
+*****1234,01/01/2025,,Rent Payment – Property Mgmt,2412.75,,Housing,Posted,44424.48
+*****1234,01/03/2025,,ACH Credit ACME CORP – PAYROLL,,3212.34,Payroll,Posted,47636.83
+*****1234,01/05/2025,,Citibank Card Payment,221.03,,Credit Card Payment,Posted,47415.80
+*****1234,01/08/2025,,Comcast Internet Service,89.22,,Utilities,Posted,47326.57
+*****1234,01/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,47310.58
+*****1234,01/13/2025,,AT&T Wireless Payment,92.32,,Utilities,Posted,47218.27
+*****1234,01/17/2025,,ACH Credit ACME CORP – PAYROLL,,3121.68,Payroll,Posted,50339.95
+*****1234,01/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,50328.96
+*****1234,01/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,50325.97
+*****1234,01/21/2025,,Chase Sapphire Payment,1571.88,,Credit Card Payment,Posted,48754.09
+*****1234,01/23/2025,,Electric Company Bill,105.76,,Utilities,Posted,48648.33
+*****1234,01/24/2025,,Citibank Card Payment,54.67,,Credit Card Payment,Posted,48593.66
+*****1234,01/31/2025,,ACH Credit ACME CORP – PAYROLL,,3418.39,Payroll,Posted,52012.05
+*****1234,02/01/2025,,Rent Payment – Property Mgmt,2196.21,,Housing,Posted,49815.84
+*****1234,02/06/2025,,Citibank Card Payment,110.75,,Credit Card Payment,Posted,49705.09
+*****1234,02/08/2025,,Comcast Internet Service,72.16,,Utilities,Posted,49632.93
+*****1234,02/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,49616.94
+*****1234,02/13/2025,,AT&T Wireless Payment,104.09,,Utilities,Posted,49512.85
+*****1234,02/14/2025,,ACH Credit ACME CORP – PAYROLL,,3221.65,Payroll,Posted,52734.51
+*****1234,02/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,52723.52
+*****1234,02/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,52720.53
+*****1234,02/20/2025,,Citibank Card Payment,92.90,,Credit Card Payment,Posted,52627.63
+*****1234,02/21/2025,,Chase Sapphire Payment,708.71,,Credit Card Payment,Posted,51918.92
+*****1234,02/23/2025,,Electric Company Bill,174.46,,Utilities,Posted,51744.45
+*****1234,02/28/2025,,ACH Credit ACME CORP – PAYROLL,,3342.83,Payroll,Posted,55087.28
+*****1234,03/01/2025,,Rent Payment – Property Mgmt,2458.13,,Housing,Posted,52629.15
+*****1234,03/08/2025,,Citibank Card Payment,79.09,,Credit Card Payment,Posted,52550.06
+*****1234,03/08/2025,,Comcast Internet Service,80.91,,Utilities,Posted,52469.15
+*****1234,03/11/2025,,Citibank Card Payment,51.24,,Credit Card Payment,Posted,52417.91
+*****1234,03/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,52401.92
+*****1234,03/13/2025,,AT&T Wireless Payment,112.65,,Utilities,Posted,52289.27
+*****1234,03/14/2025,,ACH Credit ACME CORP – PAYROLL,,3397.51,Payroll,Posted,55686.79
+*****1234,03/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,55675.80
+*****1234,03/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,55672.81
+*****1234,03/21/2025,,Chase Sapphire Payment,887.83,,Credit Card Payment,Posted,54784.98
+*****1234,03/22/2025,,Citibank Card Payment,116.06,,Credit Card Payment,Posted,54668.92
+*****1234,03/23/2025,,Electric Company Bill,165.41,,Utilities,Posted,54503.51
+*****1234,03/28/2025,,ACH Credit ACME CORP – PAYROLL,,3517.01,Payroll,Posted,58020.52
+*****1234,04/01/2025,,Rent Payment – Property Mgmt,2384.84,,Housing,Posted,55635.68
+*****1234,04/07/2025,,Citibank Card Payment,118.99,,Credit Card Payment,Posted,55516.69
+*****1234,04/08/2025,,Comcast Internet Service,73.23,,Utilities,Posted,55443.45
+*****1234,04/11/2025,,ACH Credit ACME CORP – PAYROLL,,3385.25,Payroll,Posted,58828.71
+*****1234,04/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,58812.72
+*****1234,04/13/2025,,AT&T Wireless Payment,92.20,,Utilities,Posted,58720.51
+*****1234,04/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,58709.52
+*****1234,04/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,58706.53
+*****1234,04/21/2025,,Chase Sapphire Payment,485.45,,Credit Card Payment,Posted,58221.08
+*****1234,04/23/2025,,Electric Company Bill,137.83,,Utilities,Posted,58083.26
+*****1234,04/24/2025,,Citibank Card Payment,109.94,,Credit Card Payment,Posted,57973.32
+*****1234,04/25/2025,,ACH Credit ACME CORP – PAYROLL,,3215.01,Payroll,Posted,61188.32
+*****1234,05/01/2025,,Rent Payment – Property Mgmt,2304.21,,Housing,Posted,58884.12
+*****1234,05/02/2025,,CVS Pharmacy,29.13,,Health,Posted,58854.99
+*****1234,05/08/2025,,Citibank Card Payment,164.59,,Credit Card Payment,Posted,58690.40
+*****1234,05/08/2025,,Comcast Internet Service,77.24,,Utilities,Posted,58613.16
+*****1234,05/09/2025,,ACH Credit ACME CORP – PAYROLL,,3180.63,Payroll,Posted,61793.80
+*****1234,05/09/2025,,Starbucks Store,7.86,,Food & Drink,Posted,61785.94
+*****1234,05/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,61769.95
+*****1234,05/13/2025,,AT&T Wireless Payment,92.75,,Utilities,Posted,61677.19
+*****1234,05/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,61666.20
+*****1234,05/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,61663.21
+*****1234,05/21/2025,,Chase Sapphire Payment,531.47,,Credit Card Payment,Posted,61131.74
+*****1234,05/23/2025,,ACH Credit ACME CORP – PAYROLL,,3557.43,Payroll,Posted,64689.18
+*****1234,05/23/2025,,Electric Company Bill,146.70,,Utilities,Posted,64542.48
+*****1234,05/24/2025,,Citibank Card Payment,162.74,,Credit Card Payment,Posted,64379.74
+*****1234,06/01/2025,,Rent Payment – Property Mgmt,2384.16,,Housing,Posted,61995.58
+*****1234,06/06/2025,,ACH Credit ACME CORP – PAYROLL,,3285.25,Payroll,Posted,65280.83
+*****1234,06/07/2025,,Citibank Card Payment,29.25,,Credit Card Payment,Posted,65251.58
+*****1234,06/08/2025,,Comcast Internet Service,73.28,,Utilities,Posted,65178.31
+*****1234,06/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,65162.32
+*****1234,06/13/2025,,AT&T Wireless Payment,99.07,,Utilities,Posted,65063.25
+*****1234,06/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,65052.26
+*****1234,06/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,65049.27
+*****1234,06/20/2025,,ACH Credit ACME CORP – PAYROLL,,3253.05,Payroll,Posted,68302.31
+*****1234,06/21/2025,,Chase Sapphire Payment,1248.56,,Credit Card Payment,Posted,67053.75
+*****1234,06/23/2025,,Citibank Card Payment,180.14,,Credit Card Payment,Posted,66873.61
+*****1234,06/23/2025,,Electric Company Bill,162.05,,Utilities,Posted,66711.56
+*****1234,07/01/2025,,Rent Payment – Property Mgmt,2365.56,,Housing,Posted,64346.01
+*****1234,07/04/2025,,ACH Credit ACME CORP – PAYROLL,,3315.54,Payroll,Posted,67661.55
+*****1234,07/08/2025,,Comcast Internet Service,83.78,,Utilities,Posted,67577.76
+*****1234,07/09/2025,,Citibank Card Payment,159.39,,Credit Card Payment,Posted,67418.37
+*****1234,07/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,67402.38
+*****1234,07/13/2025,,AT&T Wireless Payment,93.32,,Utilities,Posted,67309.07
+*****1234,07/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,67298.08
+*****1234,07/18/2025,,ACH Credit ACME CORP – PAYROLL,,3253.59,Payroll,Posted,70551.67
+*****1234,07/18/2025,,Target Store,104.04,,Shopping,Posted,70447.63
+*****1234,07/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,70444.64
+*****1234,07/21/2025,,Chase Sapphire Payment,704.42,,Credit Card Payment,Posted,69740.22
+*****1234,07/21/2025,,Citibank Card Payment,83.79,,Credit Card Payment,Posted,69656.43
+*****1234,07/22/2025,,Citibank Card Payment,74.04,,Credit Card Payment,Posted,69582.39
+*****1234,07/23/2025,,Electric Company Bill,129.71,,Utilities,Posted,69452.68
+*****1234,07/26/2025,,DoorDash,46.77,,Food & Drink,Posted,69405.91
+*****1234,08/01/2025,,ACH Credit ACME CORP – PAYROLL,,3083.26,Payroll,Posted,72489.18
+*****1234,08/01/2025,,Rent Payment – Property Mgmt,2232.07,,Housing,Posted,70257.10
+*****1234,08/04/2025,,Whole Foods Market,98.55,,Groceries,Posted,70158.55
+*****1234,08/07/2025,,Citibank Card Payment,43.21,,Credit Card Payment,Posted,70115.34
+*****1234,08/08/2025,,Comcast Internet Service,82.31,,Utilities,Posted,70033.03
+*****1234,08/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,70017.04
+*****1234,08/13/2025,,AT&T Wireless Payment,105.60,,Utilities,Posted,69911.45
+*****1234,08/15/2025,,ACH Credit ACME CORP – PAYROLL,,3220.77,Payroll,Posted,73132.22
+*****1234,08/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,73121.23
+*****1234,08/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,73118.24
+*****1234,08/21/2025,,Chase Sapphire Payment,1402.70,,Credit Card Payment,Posted,71715.54
+*****1234,08/22/2025,,Citibank Card Payment,103.27,,Credit Card Payment,Posted,71612.27
+*****1234,08/23/2025,,Electric Company Bill,160.38,,Utilities,Posted,71451.89
+*****1234,08/29/2025,,ACH Credit ACME CORP – PAYROLL,,3236.58,Payroll,Posted,74688.47
+*****1234,09/01/2025,,Rent Payment – Property Mgmt,2349.58,,Housing,Posted,72338.89
+*****1234,09/08/2025,,Comcast Internet Service,76.72,,Utilities,Posted,72262.17
+*****1234,09/09/2025,,Citibank Card Payment,77.81,,Credit Card Payment,Posted,72184.36
+*****1234,09/10/2025,,Uber Trip,24.15,,Transportation,Posted,72160.21
+*****1234,09/12/2025,,ACH Credit ACME CORP – PAYROLL,,3129.40,Payroll,Posted,75289.61
+*****1234,09/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,75273.62
+*****1234,09/13/2025,,AT&T Wireless Payment,102.78,,Utilities,Posted,75170.84
+*****1234,09/16/2025,,DoorDash,43.08,,Food & Drink,Posted,75127.76
+*****1234,09/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,75116.77
+*****1234,09/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,75113.78
+*****1234,09/21/2025,,Chase Sapphire Payment,1303.55,,Credit Card Payment,Posted,73810.23
+*****1234,09/23/2025,,Citibank Card Payment,140.13,,Credit Card Payment,Posted,73670.10
+*****1234,09/23/2025,,Electric Company Bill,119.79,,Utilities,Posted,73550.30
+*****1234,09/26/2025,,ACH Credit ACME CORP – PAYROLL,,3514.62,Payroll,Posted,77064.92
+*****1234,10/01/2025,,Rent Payment – Property Mgmt,2281.41,,Housing,Posted,74783.52
+*****1234,10/04/2025,,CVS Pharmacy,37.40,,Health,Posted,74746.12
+*****1234,10/08/2025,,Comcast Internet Service,79.73,,Utilities,Posted,74666.39
+*****1234,10/10/2025,,ACH Credit ACME CORP – PAYROLL,,3389.26,Payroll,Posted,78055.64
+*****1234,10/10/2025,,Citibank Card Payment,80.30,,Credit Card Payment,Posted,77975.34
+*****1234,10/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,77959.35
+*****1234,10/12/2025,,Citibank Card Payment,62.59,,Credit Card Payment,Posted,77896.76
+*****1234,10/13/2025,,AT&T Wireless Payment,100.25,,Utilities,Posted,77796.51
+*****1234,10/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,77785.52
+*****1234,10/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,77782.53
+*****1234,10/21/2025,,Chase Sapphire Payment,368.87,,Credit Card Payment,Posted,77413.66
+*****1234,10/23/2025,,Electric Company Bill,125.50,,Utilities,Posted,77288.16
+*****1234,10/24/2025,,ACH Credit ACME CORP – PAYROLL,,3266.85,Payroll,Posted,80555.01
+*****1234,11/01/2025,,Rent Payment – Property Mgmt,2425.08,,Housing,Posted,78129.94
+*****1234,11/07/2025,,ACH Credit ACME CORP – PAYROLL,,3113.17,Payroll,Posted,81243.11
+*****1234,11/07/2025,,Citibank Card Payment,24.11,,Credit Card Payment,Posted,81219.00
+*****1234,11/08/2025,,Comcast Internet Service,81.13,,Utilities,Posted,81137.87
+*****1234,11/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,81121.88
+*****1234,11/13/2025,,AT&T Wireless Payment,111.89,,Utilities,Posted,81009.99
+*****1234,11/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,80999.00
+*****1234,11/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,80996.01
+*****1234,11/21/2025,,ACH Credit ACME CORP – PAYROLL,,3325.31,Payroll,Posted,84321.32
+*****1234,11/21/2025,,Chase Sapphire Payment,427.68,,Credit Card Payment,Posted,83893.64
+*****1234,11/23/2025,,Electric Company Bill,176.75,,Utilities,Posted,83716.89
+*****1234,11/25/2025,,Citibank Card Payment,56.53,,Credit Card Payment,Posted,83660.36
+*****1234,11/26/2025,,Citibank Card Payment,60.07,,Credit Card Payment,Posted,83600.29
+*****1234,11/30/2025,,Whole Foods Market,81.18,,Groceries,Posted,83519.11
+*****1234,12/01/2025,,Rent Payment – Property Mgmt,2263.88,,Housing,Posted,81255.23
+*****1234,12/05/2025,,ACH Credit ACME CORP – PAYROLL,,3354.15,Payroll,Posted,84609.38
+*****1234,12/08/2025,,Citibank Card Payment,57.56,,Credit Card Payment,Posted,84551.82
+*****1234,12/08/2025,,Comcast Internet Service,76.86,,Utilities,Posted,84474.96
+*****1234,12/12/2025,,ACH Debit Netflix Subscription,15.99,,Entertainment,Posted,84458.97
+*****1234,12/13/2025,,AT&T Wireless Payment,97.78,,Utilities,Posted,84361.19
+*****1234,12/17/2025,,ACH Debit Spotify,10.99,,Entertainment,Posted,84350.20
+*****1234,12/19/2025,,ACH Credit ACME CORP – PAYROLL,,3359.43,Payroll,Posted,87709.63
+*****1234,12/19/2025,,Apple iCloud Storage,2.99,,Utilities,Posted,87706.64
+*****1234,12/20/2025,,Citibank Card Payment,223.16,,Credit Card Payment,Posted,87483.48
+*****1234,12/21/2025,,Chase Sapphire Payment,465.33,,Credit Card Payment,Posted,87018.15
+*****1234,12/23/2025,,Electric Company Bill,130.14,,Utilities,Posted,86888.02

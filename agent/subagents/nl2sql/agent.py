@@ -7,21 +7,37 @@ from google.adk import Runner
 from . import prompts
 from . import tools
 
-# Get directory where this file lives
-current_dir = os.path.dirname(os.path.abspath(__file__))
-# Go up 3 levels to project root
-project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
-csv_path = os.path.join(project_root, 'data', 'transactions_2024_2025.csv')
+# Get database path from environment variable or find latest classified file
+load_dotenv()
+db_path = os.environ.get('FINANCE_DB_PATH')
 
+if db_path:
+    # User specified a custom path (e.g., in encrypted folder)
+    csv_path = db_path
+else:
+    # Fallback to default project location - find latest classified file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+    classified_dir = os.path.join(project_root, 'data', '3_classified')
+
+    # Find the most recent classified_by_merchant file
+    classified_files = glob.glob(os.path.join(classified_dir, 'classified_by_merchant_*.csv'))
+
+    if not classified_files:
+        raise FileNotFoundError(
+            f"No classified transaction files found in {classified_dir}\n"
+            f"Please run classify_by_merchant.py first to generate classified transactions,\n"
+            f"or set FINANCE_DB_PATH environment variable to point to your classified transactions CSV"
+        )
+
+    # Use the most recent file (sorted by filename, which includes timestamp)
+    csv_path = sorted(classified_files)[-1]
+
+print(f"Loading transaction data from: {csv_path}")
 my_df = pd.read_csv(csv_path)
 
 # Load Google AI API key (required for Google ADK)
-load_dotenv()
-api_key = os.environ.get("GOOGLE_API_KEY") 
-
-#Download data from CSV file and store in DataFrame
-#my_df = pd.read_csv('data/transactions_2024_2025.csv')
-my_df = pd.read_csv(csv_path)
+api_key = os.environ.get("GOOGLE_API_KEY")
 
 #Extract schema from DataFrame
 schema = tools.extract_schema_from_dataframe(my_df)
