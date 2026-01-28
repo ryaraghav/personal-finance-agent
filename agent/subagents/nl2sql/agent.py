@@ -42,14 +42,26 @@ api_key = os.environ.get("GOOGLE_API_KEY")
 #Extract schema from DataFrame
 schema = tools.extract_schema_from_dataframe(my_df)
 
-# Agent generated SQL query
+# v1 Agent - basic prompt (kept for backward compatibility)
+nl2sql_agent_v1 = LlmAgent(
+    name="sql_agent_v1",
+    model="gemini-2.0-flash",
+    description=(
+        "Answers financial questions by querying transaction data (basic prompt)"
+    ),
+    instruction=prompts.nl2sql_system_instruction_v1.format(schema=schema, MAX_ROWS=10),
+    tools=[tools.execute_sql_tool],
+    output_key="generated_sql_query"
+)
+
+# v2 Agent - uses semantic layer and SQL examples from YAML configs
 nl2sql_agent = LlmAgent(
     name="sql_agent",
     model="gemini-2.0-flash",
     description=(
-        "Answers financial questions by querying transaction data"
+        "Answers financial questions by querying transaction data with semantic layer"
     ),
-    instruction= prompts.nl2sql_system_instruction_v1.format(schema=schema, MAX_ROWS=10),
+    instruction=prompts.get_nl2sql_instruction_v2(max_rows=10),
     tools=[tools.execute_sql_tool],
-    output_key = "generated_sql_query"
+    output_key="generated_sql_query"
 )

@@ -1,0 +1,227 @@
+# Semantic Layer for Transaction Data
+# This file describes the schema, business rules, and valid values for the transaction dataset.
+# Used by NL2SQL and other agents to understand how to query the data correctly.
+
+table_name: my_df
+
+fields:
+  date:
+    type: string
+    format: "YYYY-MM-DD"
+    description: Transaction date
+    examples: ["2024-01-15", "2025-06-30"]
+    tips:
+      - "Use for filtering by specific dates"
+      - "For date ranges, use BETWEEN or >= / <= operators"
+      - "Cast to DATE type if needed for date arithmetic"
+
+  description:
+    type: string
+    description: Merchant name or transaction description from the bank
+    examples: ["UBER *TRIP", "AMAZON.COM", "PAYROLL DEPOSIT"]
+    tips:
+      - "Use LIKE with wildcards for partial matching: WHERE description LIKE '%UBER%'"
+      - "Same merchant may have slight variations in description"
+      - "Use LOWER() for case-insensitive matching"
+
+  amount:
+    type: float
+    description: Transaction amount in USD
+    business_rules:
+      - "NEGATIVE values = expenses/debits (money going out)"
+      - "POSITIVE values = income/credits (money coming in)"
+      - "Refunds appear as POSITIVE amounts"
+    tips:
+      - "Filter amount < 0 for expenses only"
+      - "Filter amount > 0 for income only"
+      - "Use SUM(amount) for net totals (income minus expenses)"
+      - "Use SUM(ABS(amount)) or SUM(amount) WHERE amount < 0 for total spending"
+      - "Order by amount ASC to get highest expenses first (most negative)"
+
+  type:
+    type: string
+    description: Transaction type from the bank
+    valid_values:
+      - value: "Debit"
+        meaning: "Money withdrawn or spent"
+      - value: "Credit"
+        meaning: "Money deposited or received"
+      - value: "Sale"
+        meaning: "Purchase transaction (credit card)"
+      - value: "Fee"
+        meaning: "Bank or service fee"
+      - value: "Refund"
+        meaning: "Money returned from a purchase"
+    tips:
+      - "Prefer using amount sign (< 0 or > 0) over type for expense/income filtering"
+      - "Type is useful for identifying specific transaction kinds like fees or refunds"
+
+  ai_category:
+    type: string
+    description: AI-assigned spending category (primary classification)
+    valid_values:
+      - "Income"
+      - "Transfers"
+      - "Bill Payments"
+      - "Professional Services"
+      - "Software Subscriptions"
+      - "Fitness"
+      - "Groceries"
+      - "Dining"
+      - "Transportation"
+      - "Entertainment"
+      - "Education"
+      - "Utilities"
+      - "Healthcare"
+      - "Shopping"
+      - "Travel"
+      - "Gifts"
+      - "Donations"
+      - "Investments"
+      - "Refunds"
+      - "Fees"
+      - "Other"
+    tips:
+      - "This is the primary field for category-based analysis"
+      - "More consistent than bank_category across different banks"
+      - "Use with ai_subcategory for detailed breakdowns"
+
+  ai_subcategory:
+    type: string
+    description: AI-assigned subcategory (detailed classification within category)
+    valid_values_by_category:
+      Transportation:
+        - "Gas/Fuel"
+        - "Rideshare"
+        - "Parking"
+        - "Car Insurance"
+        - "Car Maintenance"
+        - "Public Transit"
+        - "Tolls"
+        - "Other Transportation"
+      Utilities:
+        - "Electricity/Gas (PG&E)"
+        - "Water/Sewer"
+        - "Internet/Cable"
+        - "Phone/Mobile"
+        - "Garbage/Waste"
+        - "Other Utilities"
+      Dining:
+        - "Restaurants"
+        - "Fast Food/Casual"
+        - "Coffee Shops/Cafes"
+        - "Bakery/Desserts"
+        - "Food Delivery"
+        - "Bars/Nightlife"
+        - "Other Dining"
+      Shopping:
+        - "Electronics"
+        - "Clothing/Apparel"
+        - "Home/Furniture"
+        - "Pharmacy/Personal Care"
+        - "Online Shopping"
+        - "Sporting Goods"
+        - "Liquor/Wine"
+        - "Books/Stationery"
+        - "Other Shopping"
+      Groceries:
+        - "Supermarket"
+        - "Specialty/Ethnic Groceries"
+        - "Warehouse Club (Costco)"
+        - "Organic/Natural Foods"
+        - "Other Groceries"
+      Healthcare:
+        - "Pharmacy"
+        - "Doctor/Medical"
+        - "Dental"
+        - "Vision/Optometry"
+        - "Hospital"
+        - "Medical Supplies"
+        - "Other Healthcare"
+      Entertainment:
+        - "Movies/Theater"
+        - "Museums/Attractions"
+        - "Streaming Services"
+        - "Sports/Activities"
+        - "Nightlife"
+        - "Parks/Recreation"
+        - "Other Entertainment"
+      Education:
+        - "Tuition/School Fees"
+        - "School Supplies"
+        - "Books/Materials"
+        - "Extracurricular Activities"
+        - "Other Education"
+      Fitness:
+        - "Gym Membership"
+        - "Sports Classes"
+        - "Dance/Movement"
+        - "Swimming"
+        - "Recreation Programs"
+        - "Other Fitness"
+      Software Subscriptions:
+        - "Productivity Software"
+        - "Cloud Storage"
+        - "Streaming (Video)"
+        - "Streaming (Music)"
+        - "Professional Tools"
+        - "Other Subscriptions"
+      Travel:
+        - "Airfare"
+        - "Hotels/Lodging"
+        - "Car Rental"
+        - "Travel Activities"
+        - "Other Travel"
+    tips:
+      - "May be NULL for some categories (Income, Transfers, Fees, Bill Payments, Other, Gifts, Donations, Investments, Refunds)"
+      - "Use for detailed spending breakdowns within a category"
+      - "Always GROUP BY both ai_category and ai_subcategory for subcategory analysis"
+
+  source:
+    type: string
+    description: Bank account identifier (which account the transaction came from)
+    examples: ["chase_checking", "citi_credit", "bofa_savings"]
+    tips:
+      - "Use for filtering or grouping by account"
+      - "Useful for account-specific analysis"
+
+  month:
+    type: string
+    format: "YYYY-MM"
+    description: Year and month of the transaction
+    examples: ["2024-01", "2025-06"]
+    tips:
+      - "Pre-computed for easy monthly aggregations"
+      - "Use GROUP BY month for monthly trends"
+      - "Use ORDER BY month for chronological sorting"
+
+  year:
+    type: integer
+    description: Year of the transaction
+    examples: [2024, 2025]
+    tips:
+      - "Pre-computed for easy yearly aggregations"
+      - "Use for year-over-year comparisons"
+      - "Filter with year = 2025, not year = '2025' (it's an integer)"
+
+# Common query patterns and business rules
+query_patterns:
+  expenses_only: "WHERE amount < 0"
+  income_only: "WHERE amount > 0"
+  specific_year: "WHERE year = 2025"
+  specific_month: "WHERE month = '2025-01'"
+  date_range: "WHERE date BETWEEN '2025-01-01' AND '2025-12-31'"
+  category_filter: "WHERE ai_category = 'Dining'"
+  subcategory_filter: "WHERE ai_category = 'Dining' AND ai_subcategory = 'Restaurants'"
+  merchant_search: "WHERE LOWER(description) LIKE '%amazon%'"
+
+# Important business rules
+business_rules:
+  - rule: "Expenses are negative, income is positive"
+    implication: "To get 'top spending', ORDER BY amount ASC (most negative first)"
+
+  - rule: "Refunds are categorized with original merchant category"
+    implication: "Amazon refund = Shopping category, not a separate Refunds category"
+
+  - rule: "Some categories don't have subcategories"
+    implication: "Income, Fees, Bill Payments, Other, Gifts typically have NULL subcategory"

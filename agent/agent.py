@@ -4,7 +4,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from google.adk.agents import Agent, SequentialAgent, LlmAgent
 from google.adk import Runner
-from .subagents.nl2sql.agent import nl2sql_agent
+from .subagents.nl2sql.agent import nl2sql_agent, nl2sql_agent_v1
 from .subagents.insights.agent import response_agent
 from . import prompts
 from . import tools
@@ -13,9 +13,13 @@ from . import tools
 load_dotenv()
 api_key = os.environ.get("GOOGLE_API_KEY") 
 
+# Toggle between v1 (basic prompt) and v2 (semantic layer) agents
+# Set to nl2sql_agent_v1 to test with simpler prompt
+active_agent = nl2sql_agent  # Change to nl2sql_agent_v1 to test
+
 financial_advisor_agent = SequentialAgent(
     name="FinancialAdvisorAgent",
-    sub_agents=[nl2sql_agent],
+    sub_agents=[active_agent],
     description="Executes a sequence of natural language to SQL query.",
 )
 

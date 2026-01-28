@@ -1,0 +1,363 @@
+# SQL Examples for NL2SQL Agent
+# Curated question → SQL pairs demonstrating correct query patterns.
+# These examples teach the agent how to handle common financial analysis queries.
+
+examples:
+  # =============================================================================
+  # BASIC AGGREGATIONS
+  # =============================================================================
+
+  - question: "What was my total spending in 2025?"
+    sql: |
+      SELECT SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0 AND year = 2025
+    explanation: "Filter for expenses (amount < 0) and the specific year. Result will be negative."
+    tags: [aggregation, yearly, expenses]
+
+  - question: "How much income did I receive in 2025?"
+    sql: |
+      SELECT SUM(amount) AS total_income
+      FROM my_df
+      WHERE amount > 0 AND year = 2025
+    explanation: "Filter for income (amount > 0). Result will be positive."
+    tags: [aggregation, yearly, income]
+
+  - question: "What is my net savings for 2025?"
+    sql: |
+      SELECT SUM(amount) AS net_savings
+      FROM my_df
+      WHERE year = 2025
+    explanation: "Sum all amounts (income minus expenses). Positive = savings, negative = overspent."
+    tags: [aggregation, yearly, net]
+
+  # =============================================================================
+  # CATEGORY ANALYSIS
+  # =============================================================================
+
+  - question: "What are my top 5 expense categories?"
+    sql: |
+      SELECT
+        ai_category,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY ai_category
+      ORDER BY total_spent ASC
+      LIMIT 5
+    explanation: "Group by category, order ASC because expenses are negative (most negative = highest spending)."
+    tags: [category, ranking, expenses]
+
+  - question: "How much did I spend on dining?"
+    sql: |
+      SELECT SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0 AND ai_category = 'Dining'
+    explanation: "Filter for expenses in the Dining category."
+    tags: [category, aggregation, expenses]
+
+  - question: "Break down my dining spending by subcategory"
+    sql: |
+      SELECT
+        ai_subcategory,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0 AND ai_category = 'Dining'
+      GROUP BY ai_subcategory
+      ORDER BY total_spent ASC
+    explanation: "Filter for Dining category, then group by subcategory for detailed breakdown."
+    tags: [category, subcategory, breakdown]
+
+  - question: "How much did I spend on rideshare in 2025?"
+    sql: |
+      SELECT SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0
+        AND ai_category = 'Transportation'
+        AND ai_subcategory = 'Rideshare'
+        AND year = 2025
+    explanation: "Filter by both category and subcategory. Rideshare is a subcategory under Transportation."
+    tags: [subcategory, filter, yearly]
+
+  - question: "Show spending by category with percentages"
+    sql: |
+      SELECT
+        ai_category,
+        SUM(amount) AS total_spent,
+        ROUND(100.0 * SUM(amount) / (SELECT SUM(amount) FROM my_df WHERE amount < 0), 1) AS percentage
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY ai_category
+      ORDER BY total_spent ASC
+    explanation: "Calculate each category as percentage of total spending using a subquery."
+    tags: [category, percentage, advanced]
+
+  # =============================================================================
+  # TIME-BASED ANALYSIS
+  # =============================================================================
+
+  - question: "Show my monthly spending trend for 2025"
+    sql: |
+      SELECT
+        month,
+        SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0 AND year = 2025
+      GROUP BY month
+      ORDER BY month
+    explanation: "Group by pre-computed month field, order chronologically."
+    tags: [monthly, trend, expenses]
+
+  - question: "Compare my spending between 2024 and 2025"
+    sql: |
+      SELECT
+        year,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY year
+      ORDER BY year
+    explanation: "Group by year for year-over-year comparison."
+    tags: [yearly, comparison]
+
+  - question: "What was my average monthly spending in 2025?"
+    sql: |
+      SELECT
+        AVG(monthly_total) AS avg_monthly_spending
+      FROM (
+        SELECT month, SUM(amount) AS monthly_total
+        FROM my_df
+        WHERE amount < 0 AND year = 2025
+        GROUP BY month
+      ) monthly_totals
+    explanation: "First calculate monthly totals in subquery, then average them."
+    tags: [monthly, average, advanced]
+
+  - question: "Show monthly income vs expenses for 2025"
+    sql: |
+      SELECT
+        month,
+        SUM(CASE WHEN amount < 0 THEN amount ELSE 0 END) AS expenses,
+        SUM(CASE WHEN amount > 0 THEN amount ELSE 0 END) AS income,
+        SUM(amount) AS net
+      FROM my_df
+      WHERE year = 2025
+      GROUP BY month
+      ORDER BY month
+    explanation: "Use CASE statements to separate income and expenses in the same query."
+    tags: [monthly, income, expenses, comparison]
+
+  # =============================================================================
+  # MERCHANT ANALYSIS
+  # =============================================================================
+
+  - question: "What are my top 10 merchants by spending?"
+    sql: |
+      SELECT
+        description AS merchant,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY description
+      ORDER BY total_spent ASC
+      LIMIT 10
+    explanation: "Group by description (merchant name), order ASC for highest spending first."
+    tags: [merchant, ranking]
+
+  - question: "How much did I spend at Amazon?"
+    sql: |
+      SELECT
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0 AND LOWER(description) LIKE '%amazon%'
+    explanation: "Use LIKE with wildcards for partial matching, LOWER() for case-insensitive."
+    tags: [merchant, search]
+
+  - question: "Show all my Uber transactions"
+    sql: |
+      SELECT
+        date,
+        description,
+        amount,
+        ai_category,
+        ai_subcategory
+      FROM my_df
+      WHERE LOWER(description) LIKE '%uber%'
+      ORDER BY date DESC
+    explanation: "Search for merchant in description, show transaction details."
+    tags: [merchant, search, details]
+
+  # =============================================================================
+  # SPECIFIC FILTERS
+  # =============================================================================
+
+  - question: "Show transactions over $100"
+    sql: |
+      SELECT
+        date,
+        description,
+        amount,
+        ai_category
+      FROM my_df
+      WHERE amount < -100
+      ORDER BY amount ASC
+      LIMIT 20
+    explanation: "For expenses over $100, filter amount < -100 (more negative than -100)."
+    tags: [filter, amount]
+
+  - question: "Show all refunds I received"
+    sql: |
+      SELECT
+        date,
+        description,
+        amount,
+        ai_category
+      FROM my_df
+      WHERE type = 'Refund' OR (amount > 0 AND ai_category != 'Income')
+      ORDER BY date DESC
+    explanation: "Refunds are positive amounts that aren't regular income."
+    tags: [filter, refunds]
+
+  - question: "What fees have I paid?"
+    sql: |
+      SELECT
+        date,
+        description,
+        amount,
+        source AS account
+      FROM my_df
+      WHERE ai_category = 'Fees'
+      ORDER BY date DESC
+    explanation: "Filter for Fees category to see all bank/service fees."
+    tags: [category, fees]
+
+  # =============================================================================
+  # ACCOUNT ANALYSIS
+  # =============================================================================
+
+  - question: "Show spending by account"
+    sql: |
+      SELECT
+        source AS account,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY source
+      ORDER BY total_spent ASC
+    explanation: "Group by source field to see spending per account."
+    tags: [account, breakdown]
+
+  - question: "Compare credit card vs checking account spending"
+    sql: |
+      SELECT
+        source AS account,
+        ai_category,
+        SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY source, ai_category
+      ORDER BY source, total_spent ASC
+    explanation: "Group by both account and category for detailed comparison."
+    tags: [account, category, comparison]
+
+  # =============================================================================
+  # DATE RANGE QUERIES
+  # =============================================================================
+
+  - question: "How much did I spend last month?"
+    sql: |
+      SELECT SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0
+        AND month = strftime('%Y-%m', date('now', '-1 month'))
+    explanation: "Use date functions to dynamically calculate last month."
+    tags: [date, dynamic, monthly]
+
+  - question: "Show spending from January to March 2025"
+    sql: |
+      SELECT
+        month,
+        SUM(amount) AS total_spent
+      FROM my_df
+      WHERE amount < 0
+        AND date BETWEEN '2025-01-01' AND '2025-03-31'
+      GROUP BY month
+      ORDER BY month
+    explanation: "Use BETWEEN for date ranges with specific dates."
+    tags: [date, range, monthly]
+
+  # =============================================================================
+  # STATISTICAL QUERIES
+  # =============================================================================
+
+  - question: "What is my average transaction amount?"
+    sql: |
+      SELECT
+        AVG(amount) AS avg_expense,
+        MIN(amount) AS largest_expense,
+        MAX(amount) AS smallest_expense
+      FROM my_df
+      WHERE amount < 0
+    explanation: "Calculate average, min (largest expense), and max (smallest expense) for expenses."
+    tags: [statistics, average]
+
+  - question: "How many transactions do I have per category?"
+    sql: |
+      SELECT
+        ai_category,
+        COUNT(*) AS transaction_count,
+        AVG(amount) AS avg_amount
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY ai_category
+      ORDER BY transaction_count DESC
+    explanation: "Count transactions per category to see frequency of spending."
+    tags: [statistics, count, category]
+
+  # =============================================================================
+  # COMPLEX ANALYSIS
+  # =============================================================================
+
+  - question: "Which categories increased spending from 2024 to 2025?"
+    sql: |
+      SELECT
+        ai_category,
+        SUM(CASE WHEN year = 2024 THEN amount ELSE 0 END) AS spent_2024,
+        SUM(CASE WHEN year = 2025 THEN amount ELSE 0 END) AS spent_2025,
+        SUM(CASE WHEN year = 2025 THEN amount ELSE 0 END) -
+        SUM(CASE WHEN year = 2024 THEN amount ELSE 0 END) AS change
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY ai_category
+      HAVING spent_2024 < 0 AND spent_2025 < 0
+      ORDER BY change ASC
+    explanation: "Compare spending by category across years. Negative change = increased spending."
+    tags: [comparison, yearly, advanced]
+
+  - question: "What's my spending pattern by day of week?"
+    sql: |
+      SELECT
+        strftime('%w', date) AS day_of_week,
+        CASE strftime('%w', date)
+          WHEN '0' THEN 'Sunday'
+          WHEN '1' THEN 'Monday'
+          WHEN '2' THEN 'Tuesday'
+          WHEN '3' THEN 'Wednesday'
+          WHEN '4' THEN 'Thursday'
+          WHEN '5' THEN 'Friday'
+          WHEN '6' THEN 'Saturday'
+        END AS day_name,
+        SUM(amount) AS total_spent,
+        COUNT(*) AS transaction_count
+      FROM my_df
+      WHERE amount < 0
+      GROUP BY day_of_week
+      ORDER BY day_of_week
+    explanation: "Extract day of week from date to analyze spending patterns."
+    tags: [pattern, advanced]
