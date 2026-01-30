@@ -1,0 +1,26 @@
+question,expected_value,answer_type,tolerance,notes
+How much did I spend on groceries in 2024?,400,numeric,0.01,4 transactions: Whole Foods $80 + Trader Joes $70 + Safeway $50 + Costco $200
+How much did I spend on groceries in 2025?,400,numeric,0.01,3 transactions: Whole Foods $100 + Trader Joes $150 + Safeway $150
+How much did I spend on dining in 2024?,160,numeric,0.01,3 transactions: Starbucks $15 + Chipotle $25 + French Laundry $120
+How much did I spend on dining in 2025?,280,numeric,0.01,5 transactions: Starbucks $20 + Chipotle $30 + Romantic Bistro $150 + Doordash $50 + Blue Bottle $30
+How much did I spend on transportation in 2024?,110,numeric,0.01,2 transactions: Uber $50 + Chevron gas $60
+How much did I spend on transportation in 2025?,200,numeric,0.01,4 transactions: Uber x3 ($150) + Shell gas $75 + City Parking $25
+How much income did I receive in 2024?,3000,numeric,0.01,Single payroll deposit in January 2024
+How much income did I receive in 2025?,3000,numeric,0.01,Single payroll deposit in January 2025
+What is my year over year change in income?,0,numeric,0.01,Income is same in both years: $3000
+How much did I spend at Uber?,150,numeric,0.01,"3 Uber trips at $50 each (1 in 2024, 2 in 2025)"
+How much did I spend on coffee?,65,numeric,0.01,3 Starbucks: $15 (2024) + $20 (2025) and Blue Bottle $30 (2025)
+What was my total spending in 2024?,938.92,numeric,0.01,Sum of all negative amounts in 2024
+What was my total spending in 2025?,1403.91,numeric,0.01,Sum of all negative amounts in 2025
+How much did I spend on private jets?,,no_data,,Category doesn't exist in data - edge case test
+How much did I spend in 2030?,,no_data,,Future year - no data exists - edge case test
+How much did I spend at SpaceX?,,no_data,,Merchant doesn't exist in data - edge case test
+What are my top 3 expense categories in 2025?,Groceries; Dining; Shopping,contains,,Top categories by total spend amount
+How many transactions did I have at Starbucks?,2,count,0,"Exact count: 1 in 2024, 1 in 2025"
+How much did I spend at Amazon in 2025?,150,numeric,0.01,$200 purchase - $50 refund = $150 net
+What is my total Amazon spending?,300,numeric,0.01,2024: $150 + 2025: $200 - refund $50 = $300 net
+What subscriptions am I spending on?,Netflix; iCloud; Comcast,contains,,Recurring subscription services
+Wat are subscriptions I am currently paying for?,107.98,numeric,0.5,Netflix $15.99 + iCloud $2.99 + Comcast $89 = $107.98
+How much did I spend on Netflix in 2025?,31.98,numeric,0.01,2 months: $15.99 x 2 (Jan and Feb 2025)
+What are my utility expenses?,89,numeric,0.01,Only Comcast Internet per month
+How many dining transactions in 2025?,5,count,0,Starbucks; Chipotle; Romantic Bistro; Doordash; Blue Bottle
